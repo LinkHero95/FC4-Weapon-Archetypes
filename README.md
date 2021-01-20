@@ -1,5 +1,12 @@
 #	Far Cry 4 Weapon Archetypes
 
+####	Table of Contents
+as
+asas
+asasas
+asasasas
+asasasasas
+
 ##	Disclaimer and Permissions
 
 ##	Overview
