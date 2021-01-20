@@ -1,13 +1,14 @@
 #	Far Cry 4 Weapon Archetypes
 
 ####	Table of Contents
-as <br/>
-asas__
-asasas__
-asasasas__
-asasasasas__
+- as
+- asas__
+- asasas__
+- asasasas__
+- asasasasas__
 
 ##	Disclaimer and Permissions
+
 
 ##	Overview
 This repository contains the data regarding converted XML files for FCB files regarding weapon files, weapon properties files, and weapon files.
