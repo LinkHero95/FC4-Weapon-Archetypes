@@ -38,5 +38,3 @@ Ubisoft, for making Far Cry 4.
 Modder JRavens for his archetype collection.
 Modder LFino for Dunia Tools.
 Modder DarkMatterXD for helping me test the mod.
-
-
