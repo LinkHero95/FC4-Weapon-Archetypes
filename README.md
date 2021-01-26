@@ -2,8 +2,8 @@
 #	Far Cry 4 Weapon Archetypes
 
 ####	Table of Contents
-- [Disclaimer and Permissions] (#disclaimer "Go to 'Disclaimer and Permissions'")
-<!-- - [Overview] (#overview "Go to 'Overview'")
+- [Disclaimer and Permissions] (#disclaimer)
+<!-- - [Overview] (#overview "Go to 'Overview'")"Go to 'Disclaimer and Permissions'"
 - [Requirements to Use] (#requirements "Go to 'Requirements to Use'")
 - [How to Install] (#installation "Go to 'How to Install'")
 - [Other Information] (#otherinfo "Other Information'")
