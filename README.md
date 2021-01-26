@@ -9,7 +9,7 @@
 - [Other Information] (#otherinfo "Other Information'")
 - [Credits] (#credits "Go to 'Credits'") -->
 
-<a name="disclaimer"/>
+<a name="disclaimer"></a>
 ##	Disclaimer and Permissions
 
 <a name="overview"></a>
