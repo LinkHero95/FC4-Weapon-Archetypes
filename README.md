@@ -6,7 +6,7 @@
 - [Overview](#overview "Go to 'Overview'")
 - [Requirements to Use](#requirements "Go to 'Requirements to Use'")
 - [How to Install](#installation "Go to 'How to Install'")
-- [Other Information](#otherinfo "Other Information'")
+- [Other Information](#otherinfo "Go to 'Other Information'")
 - [Credits](#credits "Go to 'Credits'")
 
 <a name="disclaimer"></a>
@@ -19,7 +19,7 @@ This repository contains the data regarding converted XML files for FCB files re
 <a name="requirements"></a>
 ##	Requirements to Use
 1. A working copy of Far Cry 4.
-1. Git, found here.
+1. Git, found [here](https://git-scm.com/downloads).
 1. Dunia Tools, found here.
 1. Notepad++, found here.
 1. A
