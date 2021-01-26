@@ -3,11 +3,11 @@
 
 ####	Table of Contents
 - [Disclaimer and Permissions] (#disclaimer "Go to 'Disclaimer and Permissions'")
-- [Overview] (#disclaimer "Go to 'Overview'")
-- [Requirements to Use] (#disclaimer "Go to 'Requirements to Use'")
-- [How to Install] (#disclaimer "Go to 'How to Install'")
-- [Other Information] (#disclaimer "Other Information'")
-- [Credits] (#disclaimer "Go to 'Credits'")
+- [Overview] (#overview "Go to 'Overview'")
+- [Requirements to Use] (#requirements "Go to 'Requirements to Use'")
+- [How to Install] (#installation "Go to 'How to Install'")
+- [Other Information] (#otherinfo "Other Information'")
+- [Credits] (#credits "Go to 'Credits'")
 
 <a name="disclaimer"></a>
 ##	Disclaimer and Permissions
