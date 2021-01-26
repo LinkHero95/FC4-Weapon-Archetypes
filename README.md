@@ -1,11 +1,11 @@
 #	Far Cry 4 Weapon Archetypes
 
 ####	Table of Contents
-- as
-- asas__
-- asasas__
-- asasasas__
-- asasasasas__
+- [Disclaimer and Permissions](#Disclaimer and Permissions "Goto Disclaimer and Permissions")
+- asas
+- asasas
+- asasasas
+- asasasasas
 
 ##	Disclaimer and Permissions
 
