@@ -1,7 +1,8 @@
+<a name="top"></a>
 #	Far Cry 4 Weapon Archetypes
 
 ####	Table of Contents
-- [Disclaimer and Permissions](#disclaimer)
+- [Disclaimer and Permissions](#disclaimer "Goto 'Disclaimer and Permissions'")
 - Overview
 - Requirements to Use
 - How to Install
@@ -11,10 +12,11 @@
 <a name="disclaimer"></a>
 ##	Disclaimer and Permissions
 
-
+<a name="overview"></a>
 ##	Overview
 This repository contains the data regarding converted XML files for FCB files regarding weapon files, weapon properties files, and weapon files.
 
+<a name="requirements"></a>
 ##	Requirements to Use
 1. A working copy of Far Cry 4.
 1. Git, found here.
@@ -27,8 +29,11 @@ This repository contains the data regarding converted XML files for FCB files re
 1. A
 1. A
 
+<a name="installation"></a>
 ##	How to Install
 
+<a name="otherinfo"></a>
 ##	Other Information
 
+<a name="credits"></a>
 ##	Credits
