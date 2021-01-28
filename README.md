@@ -34,7 +34,10 @@ This repository contains the data regarding converted XML files for FCB files re
 
 <a name="credits"></a>
 ##	Credits
-Ubisoft, for making Far Cry 4.
-Modder JRavens for his archetype collection.
-Modder LFino for Dunia Tools.
-Modder DarkMatterXD for helping me test the mod.
+- Ubisoft, for making Far Cry 4.
+- Modder **JRavens** for his archetype collection.
+- Modder **LFino** for Dunia Tools.
+- Modder **DarkMatterXD** for helping me test the mod.
+
+<br/>
+[Go to Top](#top "Go to Top")
