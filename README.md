@@ -31,7 +31,6 @@
 ##	How to Install
 1. Make sure you have all the requirements installed.
 2. Clone this repository to your system. For a crash course in Git and GitHub, refer to [this](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) page.
-3. Do other stuff.
 
 <a name="otherinfo"></a>
 ##	Other Information
@@ -41,6 +40,5 @@
 - Ubisoft, for making Far Cry 4.
 - Modder **JRavens** for his archetype collection.
 - Modder **LFino** for Dunia Tools.
-- Modder **DarkMatterXD** for helping me test the mod.
 
 [Go to Top](#top "Go to Top")
