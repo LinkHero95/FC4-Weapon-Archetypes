@@ -65786,4 +65786,23 @@
     <field name="Name" type="String">fcx_sound:triggers/proximitytriggersound</field>
     <field hash="15193718" type="String">ProximityTriggerSound</field>
   </object>
+
+  <!-- Weapon Files Additions -->
+  <!-- Handguns -->
+  <!-- SMGs -->
+  <!-- Shotguns -->
+  <!-- Assault Rifles -->
+  <!-- AK47 -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000040106</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000040106.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B552923B3F13B464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:ak47.ak47_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
+  <!-- Sniper Rifles -->
+  <!-- LMGs -->
+  <!-- Launchers -->
+  <!-- Specials -->
+
 </object>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+<!-- Full Size Weapons -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">7660420109553</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\7660420109553.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">608A02FD10965166</field>
+    <field name="Name" type="String">weapons:fc3/mp5</field>
+    <field hash="15193718" type="String">WeaponClassRifle</field>
+  </object>
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">7660420242520</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\7660420242520.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">6343D9F4F2819E66</field>
+    <field name="Name" type="String">weaponproperties:fc3/mp5</field>
+    <field hash="15193718" type="String">WeaponProperties</field>
+  </object>
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">7660420169580</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\7660420169580.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">634B7BFD17085166</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:mp5</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
+<!-- Sidearms -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">7856261995015</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\7856261995015.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">7E0EEBE4B7517826</field>
+    <field name="Name" type="String">weapons:fc3/ajm9</field>
+    <field hash="15193718" type="String">WeaponClassPistol</field>
+  </object>
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">7856262170644</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\7856262170644.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">7F4FBD7EEBED53E9</field>
+    <field name="Name" type="String">weaponproperties:fc3/ajm9</field>
+    <field hash="15193718" type="String">WeaponProperties</field>
+  </object>
+</object>

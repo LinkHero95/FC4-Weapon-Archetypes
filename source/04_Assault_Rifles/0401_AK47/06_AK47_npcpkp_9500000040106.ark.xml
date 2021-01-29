@@ -4,9 +4,9 @@
   <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000040106.ark.fcb</field>
   <field name="hidArchetypeResId" type="Hash64">B552923B3F13B464</field>
   <field name="Name" type="String">AK47</field>
-  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:ak47</field>
+  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:ak47.ak47_npc</field>
   <object name="Entity">
-    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:AK47</field>
+    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:AK47.AK47_NPC</field>
     <field name="text_hidEntityClass" type="String">CEntity</field>
     <field name="hidEntityClass" type="Hash32">50C95067</field>
     <field name="hidResourceCount" type="Int32">8</field>
