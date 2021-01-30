@@ -63,10 +63,3 @@ Sr. No.,Weapon Type,Weapon,Weapon,Weapon Properties,Weapon Pickup,NPC Weapon,NPC
 804,Special,Bow,7676407210732,7677582326326,7677582256314,7867382265526,7867382306977,9500000080406
 805,Special,Flamethrower,7653034129031,7653034178114,7653035195592,7655054793370,7655054762738,9500000080506
 1801,Special - Signature,Harpoon,7814513140848,7814515992012,7814513365960,9500000180104,9500000180105,9500000180106
-,,,,,,,,
-,,,Key:existing xml,,Key:new xml,,,
-,,,,Unedited,,Does not exist,,
-,,,,"Edited, matched",,Created,,
-,,,,Checked,,registered,,
-,,,,Added to patch,,added to patch,,
-,,,,"active, no bugs.",,"active, no bugs.",,
