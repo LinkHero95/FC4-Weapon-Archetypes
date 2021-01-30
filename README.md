@@ -35,13 +35,29 @@
 
 <a name="otherinfo"></a>
 ##	Other Information
-- **Completed Weapons:**
+- **Weapons completed:**<br>
     None
-- **In Progress Weapons:**
+- **Weapons in testing:**<br>
+    None
+- **Weapons in progress:**
     1. *Handguns:*
         1. 1911
+    1. *SMGs:*
+        1. A2000
+    1. *Shotguns:*
+        1. M133
     1. *Assault Rifles:*
         1. AK47
+        1. P416
+    1. *Sniper Rifles:*
+        1. SVD
+        1. Z93
+    1. *LMGs:*
+        1. PKM
+    1. *Launchers:*
+        1. RPG-7
+    1. *Specials:*
+        1. Hunter Bow (Bow_Primitive)
 <a name="credits"></a>
 ##	Credits
 - Ubisoft, for making Far Cry 4.

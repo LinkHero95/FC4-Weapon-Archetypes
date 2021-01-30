@@ -65798,6 +65798,14 @@
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- SMGs -->
+  <!-- A2000 -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000020306</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000020306.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B55290B1388DB464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:a2000.a2000_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>  
+  </object>  
   <!-- Shotguns -->
   <!-- Assault Rifles -->
   <!-- AK47 -->
