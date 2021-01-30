@@ -17,7 +17,7 @@
       <object name="CWeaponProperties">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <object name="CommonProperties">
-          <field name="sName" type="String">Z93</field>
+          <field name="sName" type="String">Z93_NPC</field>
           <field name="sIconName" type="String">Z93</field>
           <field name="locidDisplayName" type="Int32">58352</field>
           <field name="text_sUniquePickupName" type="String">z93</field>
@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">0</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
-          <field name="arkPickupArchetype" type="Id64">7671716520092</field>
+          <field name="arkPickupArchetype" type="Id64">9500000050406</field>
           <field name="fShootingAngle" type="Float32">40</field>
           <field name="fShootingIronsightAngle" type="Float32">70</field>
           <field name="selCategory" type="Enum">3</field>

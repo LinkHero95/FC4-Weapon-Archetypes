@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <object name="EntityPrototype" def="ark">
-  <field name="disLibItemId" type="Id64">9500000040506</field>
-  <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000040506.ark.fcb</field>
-  <field name="hidArchetypeResId" type="Hash64">B552972F3F13B464</field>
-  <field name="Name" type="String">P416</field>
-  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:p416.p416_npc</field>
+  <field name="disLibItemId" type="Id64">9500000050406</field>
+  <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000050406.ark.fcb</field>
+  <field name="hidArchetypeResId" type="Hash64">B552966A3E56B464</field>
+  <field name="Name" type="String">Z93.Z93_NPC</field>
+  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:z93.z93_npc</field>
   <object name="Entity">
-    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:P416.P416_NPC</field>
+    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:Z93.Z93_NPC</field>
     <field name="text_hidEntityClass" type="String">CEntity</field>
     <field name="hidEntityClass" type="Hash32">50C95067</field>
     <field name="hidResourceCount" type="Int32">8</field>
     <field name="hidConstEntity" type="Boolean">False</field>
-    <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000040506.ark.fcb</field>
-    <field name="hidArchetypeResId" type="Hash64">B552972F3F13B464</field>
+    <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000050406.ark.fcb</field>
+    <field name="hidArchetypeResId" type="Hash64">B552966A3E56B464</field>
     <object name="Components">
       <object name="CPickupWeapon">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <field name="bEnable" type="Boolean">True</field>
         <field name="fRespawnTime" type="Float32">0</field>
         <field name="bCustomBoundingBox" type="Boolean">True</field>
-        <field name="vectorBoundingBoxSize" type="Vector3">1,1,1</field>
-        <field name="vectorBoundingBoxOffset" type="Vector3">0,0.15,0</field>
+        <field name="vectorBoundingBoxSize" type="Vector3">1.25,1.5,1</field>
+        <field name="vectorBoundingBoxOffset" type="Vector3">0,0.3,0</field>
         <field name="vectorMaxSpawningAngularVelocity" type="BinHex">000000000000000000000000</field>
         <field name="bAffectedLightPickup" type="Boolean">True</field>
         <field name="bPickable" type="Boolean">True</field>
@@ -40,15 +40,15 @@
         <field name="bIsProjectilePickup" type="BinHex">00</field>
         <field name="text_fileAnimationOnPickup" type="String"></field>
         <field name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
-        <field name="arkWeapon" type="Id64">7679200521655</field>
-        <field name="iMinAmmo" type="Int32">15</field>
-        <field name="iMaxAmmo" type="Int32">15</field>
-        <field name="iMinAmmoNeededInClip" type="Int32">15</field>
-        <field name="iMaxAmmoNeededInClip" type="Int32">15</field>
+        <field name="arkWeapon" type="Id64">7679089617143</field>
+        <field name="iMinAmmo" type="Int32">6</field>
+        <field name="iMaxAmmo" type="Int32">6</field>
+        <field name="iMinAmmoNeededInClip" type="Int32">6</field>
+        <field name="iMaxAmmoNeededInClip" type="Int32">6</field>
         <object name="Sounds">
-          <field name="sndPickupGrabSound_1st" type="String">0x00456BC0</field>
+          <field name="sndPickupGrabSound_1st" type="String">0x00456BBD</field>
           <field name="sndtpPickupGrabSoundType_1st" type="Int32">15</field>
-          <field name="sndPickupGrabSound_3rd" type="String">0x004F012A</field>
+          <field name="sndPickupGrabSound_3rd" type="String">0x004F0135</field>
           <field name="sndtpPickupGrabSoundType_3rd" type="Int32">14</field>
           <field name="sndPickupEquipSound_1st" type="String">0xFFFFFFFF</field>
           <field name="sndtpPickupEquipSoundType_1st" type="Int32">-1</field>
@@ -75,40 +75,46 @@
       </object>
       <object name="CFileDescriptorComponent">
         <field name="hidHasAliasName" type="Boolean">False</field>
-        <field name="text_fileName" type="String">graphics\_common\weapons\p416\p416_tp.xml</field>
-        <field name="fileName" type="Hash64">BB3C738DCCD26B7A</field>
+        <field name="text_fileName" type="String">graphics\_common\weapons\m93\m93_tp.xml</field>
+        <field name="fileName" type="Hash64">2F33D56B30E6BC09</field>
         <field name="hidDescriptor" type="Rml">
           <rml>
             <hidDescriptor>
               <component class="GraphicComponent" version="2" detail="0">
-                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0337008,-0.261576,-0.0774675" bboxMax="0.0415044,0.519891,0.13039" />
-                <object index="1" meshName="CLIP" boneName="CLIP" bboxMin="-0.0186466,-0.0416279,-0.106669" bboxMax="0.0186465,0.054729,0.0905668" />
-                <resource fileName="graphics\_Common\Weapons\P416\P416_TP.xbg" bboxMin="-0.0350179,-0.261863,-0.131528" bboxMax="0.0421422,0.521755,0.16236" />
+                <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0334583,-0.246814,-0.0609611" bboxMax="0.0474966,0.924847,0.199782" />
+                <object index="1" meshName="METALPIECE" boneName="METALPIECE" bboxMin="-0.00924426,-0.0061912,-0.00666812" bboxMax="0.00194873,0.0473069,0.00674677" />
+                <resource fileName="graphics\_Common\Weapons\M93\M93_TP.xbg" bboxMin="-0.0334583,-0.246814,-0.0614321" bboxMax="0.0474966,0.924847,0.199782" />
                 <skeleton_reference_list>
-                  <skeleton name="P416" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                  <skeleton name="M93" index="0" pos="0,0,0" rot="1,-0,-0,-0">
                     <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
-                    <bone name="CLIP" pos="0,0.128242,-0.024859" rot="1,0,0,0" />
-                    <bone name="SLIDE" pos="0,0.113869,0.090106" rot="1,0,0,0" />
-                    <bone name="FX_FIRE" pos="0,0.512992,0.084436" rot="1,0,0,0" />
-                    <bone name="FX_CASING" pos="0.027325,0.130129,0.09492" rot="0.701057,0.0922957,-0.0922957,-0.701058" />
-                    <bone name="IK_LeftHand" pos="0,0.240228,0.051447" rot="1,0,0,0" />
-                    <bone name="ATTACH_POINTER" pos="-0.0297,0.343198,0.08406" rot="1,0,0,0" />
-                    <bone name="CHARGING_HANDLE" pos="0,-0.025144,0.108599" rot="1,0,0,0" />
-                    <bone name="CHARGING_HANDLE_LOCK" pos="-0.006526,-0.020673,0.108374" rot="1,0,0,0" />
-                    <bone name="BACKSIGHT_FLIP" pos="0,0.033025,0.136956" rot="1,0,0,0" />
-                    <bone name="FRONTSIGHT_FLIP" pos="0,0.348587,0.136658" rot="1,0,0,0" />
-                    <bone name="ATTACH_SILENCER" pos="0,0.390504,0.08406" rot="1,0,0,0" />
-                    <bone name="ATTACH_SCOPE" pos="0,0.14667,0.127717" rot="1,0,0,0" />
-                    <bone name="IRONSIGHT" pos="0,0.339772,0.157877" rot="1,0,0,0" />
+                    <bone name="CLIP" pos="0,0.174826,0.089417" rot="1,0,0,0" />
+                    <bone name="FX_CASING" pos="0.009688,0.168928,0.108216" rot="0.683013,0.183013,-0.183013,-0.683013" />
+                    <bone name="IK_LeftHand" pos="0,0.405347,0.072197" rot="1,0,0,0" />
+                    <bone name="SHELL" pos="-0.000202,0.163458,0.072034" rot="1,0,0,0" />
+                    <bone name="FX_FIRE" pos="0,1.047,0.10465" rot="1,0,0,0" />
+                    <bone name="BIPOD_LEFT" pos="-0.024584,0.522287,0.067845" rot="-0.454258,-0.461597,0.339551,0.682116" />
+                    <bone name="BIPOD_RIGHT" pos="0.024584,0.522287,0.067845" rot="-0.461597,0.454259,0.682116,-0.33955" />
+                    <bone name="Barrel" pos="0,0.559915,0.10465" rot="1,0,0,0" />
+                    <bone name="SLIDE" pos="0,0.045945,0.104091" rot="1,0,0,0" />
+                    <bone name="METALPIECE" pos="-0.020317,0.177814,0.06703" rot="0.999301,0.00902251,-0.0313518,-0.0182319" />
+                    <bone name="ATTACH_UPGRADE" pos="0,0.249408,0.163816" rot="1,0,0,0" />
+                    <bone name="SCOPE_HI" pos="0,0.053678,0.163816" rot="1,0,0,0">
+                      <bone name="CROSSHAIR" pos="-9.6e-005,-0.011476,9e-005" rot="1,0,0,0" />
+                    </bone>
+                    <bone name="ATTACH_POINTER" pos="-0.022944,0.41785,0.10668" rot="1,0,0,0" />
+                    <bone name="ATTACH_SILENCER" pos="0,0.92224,0.10465" rot="1,0,0,0" />
                   </skeleton>
                 </skeleton_reference_list>
                 <material_reference_list>
-                  <material name="P416_UPPER" shader_name="Metal" ref_shader_id="grassam-M-2303201266890156" hd="0" />
+                  <material name="M93_Metal2" shader_name="Metal" ref_shader_id="grassam-M-1203201247053092" hd="0" />
+                  <material name="M93_Scope" shader_name="Metal" ref_shader_id="grassam-M-0610201164382296" hd="0" />
+                  <material name="M93_Scope_Rubber" shader_name="Metal" ref_shader_id="grassam-M-0202201253883883" hd="0" />
+                  <material name="M93_Metal" shader_name="Metal" ref_shader_id="grassam-M-0610201164332575" hd="0" />
                 </material_reference_list>
               </component>
               <component class="InteriorVolumeComponent" version="1" detail="0" />
               <component class="RigidPhysComponent">
-                <resource fileName="graphics\_Common\Weapons\P416\P416_TP.hkx" />
+                <resource fileName="graphics\_Common\Weapons\M93\M93_TP.hkx" />
               </component>
             </hidDescriptor>
           </rml>
@@ -133,13 +139,34 @@
         <field name="bMotionBlurExclusion" type="Boolean">False</field>
         <field name="text_currentSkin" type="String"></field>
         <field name="currentSkin" type="Hash32">FFFFFFFF</field>
-        <field name="bUseCurrentSkin" type="Boolean">True</field>
+        <field name="bUseCurrentSkin" type="Boolean">False</field>
         <object name="MaterialLightSwitch">
-          <field name="hidSharedDataHandlerHash" type="Hash64">F910D47728AEBA98</field>
+          <field name="hidSharedDataHandlerHash" type="Hash64">94EAA7B24207737F</field>
           <object name="MaterialSlots">
             <object name="Material">
-              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-2303201266890156.material.bin</field>
-              <field name="disSlotPathId" type="Hash64">232CDDE616D3FF00</field>
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0610201164332575.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">3D546D15F3477D1F</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-1203201247053092.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">4A38F57D5D31373D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0202201253883883.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">71B18680B03B1272</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0610201164382296.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">9D08DB05F344BFAF</field>
               <field name="text_matMaterial" type="String"></field>
               <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
               <field name="disHD" type="BinHex">00</field>
@@ -147,11 +174,32 @@
           </object>
         </object>
         <object name="MaterialOverrides">
-          <field name="hidSharedDataHandlerHash" type="Hash64">61D75EA7E40FF246</field>
+          <field name="hidSharedDataHandlerHash" type="Hash64">43951ECA5D216BCD</field>
           <object name="MaterialSlots">
             <object name="Material">
-              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-2303201266890156.material.bin</field>
-              <field name="disSlotPathId" type="Hash64">232CDDE616D3FF00</field>
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0610201164332575.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">3D546D15F3477D1F</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-1203201247053092.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">4A38F57D5D31373D</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0202201253883883.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">71B18680B03B1272</field>
+              <field name="text_matMaterial" type="String"></field>
+              <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
+              <field name="disHD" type="BinHex">00</field>
+            </object>
+            <object name="Material">
+              <field name="text_disSlotPathId" type="String">graphics\_materials\grassam-m-0610201164382296.material.bin</field>
+              <field name="disSlotPathId" type="Hash64">9D08DB05F344BFAF</field>
               <field name="text_matMaterial" type="String"></field>
               <field name="matMaterial" type="Hash64">FFFFFFFFFFFFFFFF</field>
               <field name="disHD" type="BinHex">00</field>
@@ -172,8 +220,8 @@
         </object>
         <object name="object">
           <field name="hidIndex" type="Int32">0</field>
-          <field name="text_fileModel" type="String">graphics\_common\weapons\p416\p416_tp.xbg</field>
-          <field name="fileModel" type="Hash64">B465E38DCCD26B7A</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\m93\m93_tp.xbg</field>
+          <field name="fileModel" type="Hash64">206A456B30E6BC09</field>
           <field name="hidMeshName" type="String">FRAME</field>
           <field name="text_hidNodeName" type="String">FRAME</field>
           <field name="hidNodeName" type="Hash32">42ACFE7D</field>
@@ -183,13 +231,13 @@
         </object>
         <object name="object">
           <field name="hidIndex" type="Int32">1</field>
-          <field name="text_fileModel" type="String">graphics\_common\weapons\p416\p416_tp.xbg</field>
-          <field name="fileModel" type="Hash64">B465E38DCCD26B7A</field>
-          <field name="hidMeshName" type="String">CLIP</field>
-          <field name="text_hidNodeName" type="String">CLIP</field>
-          <field name="hidNodeName" type="Hash32">9BB5F9D3</field>
-          <field name="text_hidNodeNameLOD0" type="String">CLIP_LOD0</field>
-          <field name="hidNodeNameLOD0" type="Hash32">00B20B5C</field>
+          <field name="text_fileModel" type="String">graphics\_common\weapons\m93\m93_tp.xbg</field>
+          <field name="fileModel" type="Hash64">206A456B30E6BC09</field>
+          <field name="hidMeshName" type="String">METALPIECE</field>
+          <field name="text_hidNodeName" type="String">METALPIECE</field>
+          <field name="hidNodeName" type="Hash32">22FDD546</field>
+          <field name="text_hidNodeNameLOD0" type="String">METALPIECE_LOD0</field>
+          <field name="hidNodeNameLOD0" type="Hash32">B83E7A33</field>
           <field name="hidDetailObject" type="Boolean">False</field>
         </object>
         <object name="object">
@@ -204,13 +252,13 @@
           <field name="hidDetailObject" type="Boolean">False</field>
         </object>
         <object name="hidSharedDescriptors">
-          <field name="hidSharedDataHandlerHash" type="Hash64">7C3FFE70D8002D85</field>
+          <field name="hidSharedDataHandlerHash" type="Hash64">3796BFBF9BB499CC</field>
         </object>
       </object>
       <object name="CRigidPhysComponent">
         <field name="hidHasAliasName" type="Boolean">False</field>
-        <field name="text_hidResourceId" type="String">graphics\_common\weapons\p416\p416_tp.hkx</field>
-        <field name="hidResourceId" type="Hash64">A6F9C88DCCD26B7A</field>
+        <field name="text_hidResourceId" type="String">graphics\_common\weapons\m93\m93_tp.hkx</field>
+        <field name="hidResourceId" type="Hash64">32F66E6B30E6BC09</field>
         <field hash="C784A41F" type="BinHex">01</field>
         <field name="bDisabledAtStart" type="Boolean">False</field>
         <field name="bAlwaysStatic" type="Boolean">False</field>
@@ -289,7 +337,7 @@
       <object name="CObjectSoundAndFXComponent">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <object name="Impact">
-          <field name="matimpDropImpact" type="BinHex">E3FBCC7400000000</field>
+          <field name="matimpDropImpact" type="BinHex">FCA8A03600000000</field>
           <field name="fSpeedForMaxDropImpactVolume" type="Float32">0</field>
           <field name="fMinimalCollisionSpeed" type="Float32">1</field>
           <field name="bIsSingleDropImpactObject" type="Boolean">False</field>
@@ -337,26 +385,26 @@
     </object>
   </object>
   <object name="ResPack">
-    <field name="Count" type="BinHex">12000000</field>
+    <field name="Count" type="BinHex">13000000</field>
     <object name="ResList">
       <field name="TypeId" type="Hash32">3AE88EFD</field>
-      <field name="ResIds" type="BinHex">010000007A6BD2CC8DC8F9A6</field>
+      <field name="ResIds" type="BinHex">0100000009BCE6306B6EF632</field>
     </object>
     <object name="ResList">
       <field name="TypeId" type="Hash32">44601C12</field>
-      <field name="ResIds" type="BinHex">0A000000DB9118164D72252BBCF21B16085BC86308B3101608D1E272983A1D164DC4E772211FB9D19533987BCD551E164D37619E7D341D16085B6A9E7AF41B16081EF5D82A3BABB99E5CB1D9735F764CFF694DF0</field>
+      <field name="ResIds" type="BinHex">0B000000DB9118164D72252B9E4032FB15D4392EBCF21B16085BC86308B3101608D1E272983A1D164DC4E772211FB9D19533987BCD551E164D37619E7D341D16085B6A9E7AF41B16081EF5D82A3BABB99E5CB1D9735F764CFF694DF0</field>
     </object>
     <object name="ResList">
       <field name="TypeId" type="Hash32">63F450D8</field>
-      <field name="ResIds" type="BinHex">04000000236C81CE9CC74A7AE40AC2C29CD3947C54ABF0B99CC7957D816E36CF9CC74AD5</field>
+      <field name="ResIds" type="BinHex">04000000236C81CE9CC74A7AE40AC2C29CD3947C541B31C89CC7957D81DEF7BE9CC74AD5</field>
     </object>
     <object name="ResList">
       <field name="TypeId" type="Hash32">86E8E8BE</field>
-      <field name="ResIds" type="BinHex">010000007A6BD2CC8DE365B4</field>
+      <field name="ResIds" type="BinHex">0100000009BCE6306B456A20</field>
     </object>
     <object name="ResList">
       <field name="TypeId" type="Hash32">9E2FD219</field>
-      <field name="ResIds" type="BinHex">01000000AD7AF1DDCFFAF519</field>
+      <field name="ResIds" type="BinHex">01000000FB0718915A31DAD7</field>
     </object>
     <object name="ResList">
       <field name="TypeId" type="Hash32">BC825377</field>

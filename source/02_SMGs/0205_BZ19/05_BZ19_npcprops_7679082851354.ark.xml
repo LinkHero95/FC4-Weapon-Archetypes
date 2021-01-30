@@ -17,7 +17,7 @@
       <object name="CWeaponProperties">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <object name="CommonProperties">
-          <field name="sName" type="String">BZ19</field>
+          <field name="sName" type="String">BZ19_NPC</field>
           <field name="sIconName" type="String">BZ19</field>
           <field name="locidDisplayName" type="Int32">58355</field>
           <field name="text_sUniquePickupName" type="String">bz19</field>
@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">0</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
-          <field name="arkPickupArchetype" type="Id64">7673158212798</field>
+          <field name="arkPickupArchetype" type="Id64">9500000020506</field>
           <field name="fShootingAngle" type="Float32">60</field>
           <field name="fShootingIronsightAngle" type="Float32">65</field>
           <field name="selCategory" type="Enum">1</field>
