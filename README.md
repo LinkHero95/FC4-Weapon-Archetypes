@@ -8,6 +8,7 @@
 - [How to Install](#installation "Go to 'How to Install'")
 - [Other Information](#otherinfo "Go to 'Other Information'")
 - [Credits](#credits "Go to 'Credits'")
+- [Contact details](#contact "Go to 'Contact details'")
 
 <a name="disclaimer"></a>
 ##	Disclaimer and Permissions
@@ -63,5 +64,10 @@
 - Ubisoft, for making Far Cry 4.
 - Modder **JRavens** for his archetype collection.
 - Modder **LFino** for Dunia Tools.
+
+<a name="contact"></a>
+##	Contact details
+- You can drop an email addressed to [linkhero95@gmail.com] (mailto:linkhero95@gmail.com)
+- I am also available on Discord, my username is LinkHero95#9219
 
 [Go to Top](#top "Go to Top")
