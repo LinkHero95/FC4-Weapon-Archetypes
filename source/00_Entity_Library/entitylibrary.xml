@@ -65833,6 +65833,14 @@
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Sniper Rifles -->
+  <!-- SVD -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000050206</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000050206.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B55291F43E56B464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:svd.svd_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
   <!-- LMGs -->
   <!-- Launchers -->
   <!-- Specials -->
