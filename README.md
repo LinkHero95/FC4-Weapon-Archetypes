@@ -11,6 +11,7 @@
 
 <a name="disclaimer"></a>
 ##	Disclaimer and Permissions
+- This is a mod in progress, and in no way finished. Usage of this mod may cause game to crash.
 
 <a name="overview"></a>
 ##	Overview
@@ -34,7 +35,13 @@
 
 <a name="otherinfo"></a>
 ##	Other Information
-
+- **Completed Weapons:**
+    None
+- **In Progress Weapons:**
+    1. *Handguns:*
+        1. 1911
+    1. *Assault Rifles:*
+        1. AK47
 <a name="credits"></a>
 ##	Credits
 - Ubisoft, for making Far Cry 4.

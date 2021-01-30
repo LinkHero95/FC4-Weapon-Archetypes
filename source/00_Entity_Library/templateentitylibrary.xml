@@ -37,4 +37,11 @@
     <field name="Name" type="String">weaponproperties:fc3/ajm9</field>
     <field hash="15193718" type="String">WeaponProperties</field>
   </object>
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">7856261950860</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\7856261950860.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">7A593AC8E96D7826</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:ajm9</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
 </object>

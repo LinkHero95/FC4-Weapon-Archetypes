@@ -17,7 +17,7 @@
       <object name="CWeaponProperties">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <object name="CommonProperties">
-          <field name="sName" type="String">1911</field>
+          <field name="sName" type="String">1911_NPC</field>
           <field name="sIconName" type="String">KW1911</field>
           <field name="locidDisplayName" type="Int32">43037</field>
           <field name="text_sUniquePickupName" type="String">kw1911</field>
@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">0</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
-          <field name="arkPickupArchetype" type="Id64">7602852679206</field>
+          <field name="arkPickupArchetype" type="Id64">9500000010306</field>
           <field name="fShootingAngle" type="Float32">60</field>
           <field name="fShootingIronsightAngle" type="Float32">70</field>
           <field name="selCategory" type="Enum">13</field>

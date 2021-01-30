@@ -65789,6 +65789,14 @@
 
   <!-- Weapon Files Additions -->
   <!-- Handguns -->
+  <!-- 1911 -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000010306</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000010306.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B55290B13B42B464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:1911.1911_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
   <!-- SMGs -->
   <!-- Shotguns -->
   <!-- Assault Rifles -->
