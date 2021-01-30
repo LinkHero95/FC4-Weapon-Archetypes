@@ -65824,6 +65824,14 @@
     <field name="Name" type="String">fcc_interactive:pickups:weapons:ak47.ak47_npc</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
+  <!-- P416 -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000040506</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000040506.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B552972F3F13B464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:p416.p416_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
   <!-- Sniper Rifles -->
   <!-- LMGs -->
   <!-- Launchers -->
