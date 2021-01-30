@@ -65868,10 +65868,36 @@
   </object>
   <!-- Launchers -->
   <!-- RPG-7 -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000060106</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000060106.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B552923B3D99B464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:pkm.pkm_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
   <!-- Specials -->
   <!-- Bow_Primitive -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000080306</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000080306.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B55290B1302FB464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:bow_primitive.bow_primitive_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
   <!-- Bow -->
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000080406</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000080406.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B552966A302FB464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:bow.bow_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
   <!-- Flamethrower -->
-
-
+  <object name="Archetype">
+    <field hash="1BA57278" type="UInt64">9500000080506</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000080506.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B552972F302FB464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:flamethrower.flamethrower_npc</field>
+    <field hash="15193718" type="String">PickupWeapon</field>
+  </object>
 </object>

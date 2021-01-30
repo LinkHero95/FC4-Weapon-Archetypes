@@ -17,7 +17,7 @@
       <object name="CWeaponProperties">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <object name="CommonProperties">
-          <field name="sName" type="String">BOW</field>
+          <field name="sName" type="String">BOW_NPC_Guard</field>
           <field name="sIconName" type="String">BOW</field>
           <field name="locidDisplayName" type="Int32">82888</field>
           <field name="text_sUniquePickupName" type="String">bow</field>
@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">0</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
-          <field name="arkPickupArchetype" type="Id64">7677582256314</field>
+          <field name="arkPickupArchetype" type="Id64">9500000080406</field>
           <field name="fShootingAngle" type="Float32">0</field>
           <field name="fShootingIronsightAngle" type="Float32">0</field>
           <field name="selCategory" type="Enum">1</field>

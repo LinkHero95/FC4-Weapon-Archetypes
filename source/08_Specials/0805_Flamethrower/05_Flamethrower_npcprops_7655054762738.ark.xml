@@ -17,7 +17,7 @@
       <object name="CWeaponProperties">
         <field name="hidHasAliasName" type="Boolean">False</field>
         <object name="CommonProperties">
-          <field name="sName" type="String">LPO-50</field>
+          <field name="sName" type="String">LPO-50_NPC</field>
           <field name="sIconName" type="String">FLAMETHROWER</field>
           <field name="locidDisplayName" type="Int32">43065</field>
           <field name="text_sUniquePickupName" type="String">flamethrower</field>
@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">50</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
-          <field name="arkPickupArchetype" type="Id64">7653035195592</field>
+          <field name="arkPickupArchetype" type="Id64">9500000080506</field>
           <field name="fShootingAngle" type="Float32">20</field>
           <field name="fShootingIronsightAngle" type="Float32">20</field>
           <field name="selCategory" type="Enum">1</field>
