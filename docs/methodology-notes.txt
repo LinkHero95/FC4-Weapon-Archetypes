@@ -1,0 +1,38 @@
+4A6FE138 reflex a
+D366B082 Reflex b
+D9FCB990 acog
+57B7E2DF silencer
+7CAF7097 largemag
+D3BF12D9 optical
+
+I cannot change placed weapon pickups that easily.
+I can change enemy weapon pickups easily.
+I can create my own archetype files.
+
+So I create my own pickups, which point to default weapons and vice versa. 
+default pickups point to npc weapons and vice versa.
+
+Steps:
+Create 6 xmls
+
+change names and hashes as required
+	wpn xml changes
+		lines 3,4,5,6,7,9,14,15, text_hidName,hidName, wpnpropsWeaponProperties
+		
+	props xml changes:
+		lines 3,4,5,6,7,9,14,15,20,79
+
+	pkp xml changes
+		lines 3,4,5,6,7,9,14,15,43
+
+check the 2 loops
+wpn -> wpnpropsWeaponProperties -> props -> 79 -> pkp -> 43 -> wpn
+
+check the attachment slots in props (line 1151)
+
+create entries in object inventory.xml
+	id
+	path
+	path hash
+	ark name as name.
+	
