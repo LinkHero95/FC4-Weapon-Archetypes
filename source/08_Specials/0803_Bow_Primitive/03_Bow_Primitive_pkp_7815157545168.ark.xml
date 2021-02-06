@@ -40,7 +40,7 @@
         <field name="bIsProjectilePickup" type="BinHex">00</field>
         <field name="text_fileAnimationOnPickup" type="String"></field>
         <field name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
-        <field name="arkWeapon" type="Id64">7815157303483</field>
+        <field name="arkWeapon" type="Id64">7783083675084</field>
         <field name="iMinAmmo" type="Int32">1</field>
         <field name="iMaxAmmo" type="Int32">1</field>
         <field name="iMinAmmoNeededInClip" type="Int32">1</field>

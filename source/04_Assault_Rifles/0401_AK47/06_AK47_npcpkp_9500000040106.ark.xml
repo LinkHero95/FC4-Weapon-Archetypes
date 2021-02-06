@@ -3,10 +3,10 @@
   <field name="disLibItemId" type="Id64">9500000040106</field>
   <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000040106.ark.fcb</field>
   <field name="hidArchetypeResId" type="Hash64">B552923B3F13B464</field>
-  <field name="Name" type="String">AK47.AK47_NPC</field>
-  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:ak47.ak47_npc</field>
+  <field name="Name" type="String">AK47.AK47_Player</field>
+  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:ak47.ak47_player</field>
   <object name="Entity">
-    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:AK47.AK47_NPC</field>
+    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:AK47.AK47_Player</field>
     <field name="text_hidEntityClass" type="String">CEntity</field>
     <field name="hidEntityClass" type="Hash32">50C95067</field>
     <field name="hidResourceCount" type="Int32">8</field>
@@ -40,7 +40,7 @@
         <field name="bIsProjectilePickup" type="BinHex">00</field>
         <field name="text_fileAnimationOnPickup" type="String"></field>
         <field name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
-        <field name="arkWeapon" type="Id64">225187564874976793</field>
+        <field name="arkWeapon" type="Id64">216180365620235801</field>
         <field name="iMinAmmo" type="Int32">15</field>
         <field name="iMaxAmmo" type="Int32">15</field>
         <field name="iMinAmmoNeededInClip" type="Int32">15</field>

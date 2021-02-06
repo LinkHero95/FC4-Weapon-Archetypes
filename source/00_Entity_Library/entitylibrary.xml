@@ -65794,7 +65794,7 @@
     <field hash="1BA57278" type="UInt64">9500000010306</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000010306.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B55290B13B42B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:1911.1911_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:1911.1911_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- SMGs -->
@@ -65803,7 +65803,7 @@
     <field hash="1BA57278" type="UInt64">9500000020306</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000020306.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B55290B1388DB464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:a2000.a2000_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:a2000.a2000_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>  
   </object>
   <!-- BZ19 -->
@@ -65811,7 +65811,7 @@
     <field hash="1BA57278" type="UInt64">9500000020506</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000020506.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552972F388DB464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:bz19.bz19_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:bz19.bz19_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>  
   </object>
   <!-- Shotguns -->
@@ -65820,7 +65820,7 @@
     <field hash="1BA57278" type="UInt64">9500000030206</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000030206.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B55291F439C8B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:m133.m133_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:m133.m133_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Assault Rifles -->
@@ -65829,7 +65829,7 @@
     <field hash="1BA57278" type="UInt64">9500000040106</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000040106.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552923B3F13B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:ak47.ak47_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:ak47.ak47_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- P416 -->
@@ -65837,7 +65837,7 @@
     <field hash="1BA57278" type="UInt64">9500000040506</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000040506.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552972F3F13B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:p416.p416_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:p416.p416_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Sniper Rifles -->
@@ -65846,7 +65846,7 @@
     <field hash="1BA57278" type="UInt64">9500000050206</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000050206.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B55291F43E56B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:svd.svd_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:svd.svd_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Z93 -->
@@ -65854,7 +65854,7 @@
     <field hash="1BA57278" type="UInt64">9500000050406</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000050406.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552966A3E56B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:z93.z93_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:z93.z93_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- LMGs -->
@@ -65863,16 +65863,16 @@
     <field hash="1BA57278" type="UInt64">9500000060106</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000060106.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552923B3D99B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:pkm.pkm_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:pkm.pkm_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Launchers -->
   <!-- RPG-7 -->
   <object name="Archetype">
-    <field hash="1BA57278" type="UInt64">9500000060106</field>
-    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000060106.ark.fcb</field>
-    <field hash="2D90D933" type="Hash64">B552923B3D99B464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:pkm.pkm_npc</field>
+    <field hash="1BA57278" type="UInt64">9500000070406</field>
+    <field hash="B435B769" type="String">entityarchetypeslibrary\9500000070406.ark.fcb</field>
+    <field hash="2D90D933" type="Hash64">B552966A3CDCB464</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:rpg-7.rpg-7_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Specials -->
@@ -65881,7 +65881,7 @@
     <field hash="1BA57278" type="UInt64">9500000080306</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000080306.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B55290B1302FB464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:bow_primitive.bow_primitive_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:bow_primitive.bow_primitive_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Bow -->
@@ -65889,7 +65889,7 @@
     <field hash="1BA57278" type="UInt64">9500000080406</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000080406.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552966A302FB464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:bow.bow_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:bow.bow_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
   <!-- Flamethrower -->
@@ -65897,7 +65897,7 @@
     <field hash="1BA57278" type="UInt64">9500000080506</field>
     <field hash="B435B769" type="String">entityarchetypeslibrary\9500000080506.ark.fcb</field>
     <field hash="2D90D933" type="Hash64">B552972F302FB464</field>
-    <field name="Name" type="String">fcc_interactive:pickups:weapons:flamethrower.flamethrower_npc</field>
+    <field name="Name" type="String">fcc_interactive:pickups:weapons:flamethrower.flamethrower_player</field>
     <field hash="15193718" type="String">PickupWeapon</field>
   </object>
 </object>

@@ -3,10 +3,10 @@
   <field name="disLibItemId" type="Id64">9500000040506</field>
   <field name="text_hidArchetypeResId" type="String">entityarchetypeslibrary\9500000040506.ark.fcb</field>
   <field name="hidArchetypeResId" type="Hash64">B552972F3F13B464</field>
-  <field name="Name" type="String">P416.P416_NPC</field>
-  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:p416.p416_npc</field>
+  <field name="Name" type="String">P416.P416_Player</field>
+  <field name="ArchetypeName" type="String">fcc_interactive:pickups:weapons:p416.p416_player</field>
   <object name="Entity">
-    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:P416.P416_NPC</field>
+    <field name="hidName" type="String">FCC_Interactive:Pickups:Weapons:P416.P416_Player</field>
     <field name="text_hidEntityClass" type="String">CEntity</field>
     <field name="hidEntityClass" type="Hash32">50C95067</field>
     <field name="hidResourceCount" type="Int32">8</field>
@@ -40,7 +40,7 @@
         <field name="bIsProjectilePickup" type="BinHex">00</field>
         <field name="text_fileAnimationOnPickup" type="String"></field>
         <field name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
-        <field name="arkWeapon" type="Id64">7679200521655</field>
+        <field name="arkWeapon" type="Id64">7679073997199</field>
         <field name="iMinAmmo" type="Int32">15</field>
         <field name="iMaxAmmo" type="Int32">15</field>
         <field name="iMinAmmoNeededInClip" type="Int32">15</field>

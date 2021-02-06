@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">0</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">0</field>
-          <field name="arkPickupArchetype" type="Id64">9500000060106</field>
+          <field name="arkPickupArchetype" type="Id64">189158767856012818</field>
           <field name="fShootingAngle" type="Float32">45</field>
           <field name="fShootingIronsightAngle" type="Float32">52</field>
           <field name="selCategory" type="Enum">1</field>

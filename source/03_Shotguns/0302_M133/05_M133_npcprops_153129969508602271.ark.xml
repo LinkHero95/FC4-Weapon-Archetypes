@@ -76,7 +76,7 @@
           <field name="iJamBulletThreshold" type="Int32">0</field>
           <field name="iDudBulletThreshold" type="Int32">0</field>
           <field name="iSafeClipsAfterUnjam" type="Int32">1</field>
-          <field name="arkPickupArchetype" type="Id64">9500000030206</field>
+          <field name="arkPickupArchetype" type="Id64">387317151308574367</field>
           <field name="fShootingAngle" type="Float32">20</field>
           <field name="fShootingIronsightAngle" type="Float32">20</field>
           <field name="selCategory" type="Enum">1</field>
@@ -2192,8 +2192,8 @@
             </object>
           </object>
           <object name="Sounds">
-            <field name="sndEmptyWeapon" type="String">0xFFFFFFFF</field>
-            <field name="sndtpEmptyWeaponType" type="Int32">-1</field>
+            <field name="sndEmptyWeapon" type="String">0x0002EC3E</field>
+            <field name="sndtpEmptyWeaponType" type="Int32">9</field>
             <field name="sndPassByWizz" type="String">0xFFFFFFFF</field>
             <field name="fPassByWizzTiming" type="Float32">0.15</field>
             <field name="sndDudBullet" type="String">0xFFFFFFFF</field>
@@ -2205,13 +2205,13 @@
             <field name="sndHitPlayerHeadSound" type="String">0xFFFFFFFF</field>
             <field name="sndtpHitPlayerHeadSoundType" type="Int32">-1</field>
             <field name="sndmlDistanceFromShootingSoundToPlayerMultilayer" type="Int32">24235</field>
-            <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+            <field name="sndSingleBulletShot" type="String">0x00017076</field>
             <field name="sndSingleBulletShotEcho" type="String">0xFFFFFFFF</field>
             <field name="sndtpSingleBulletShotType" type="Int32">8</field>
             <object name="IronSightSound">
               <field name="sndIronSightShotSound" type="String">0xFFFFFFFF</field>
               <field name="sndtpIronSightShotSoundType" type="Int32">-1</field>
-              <field name="sndSingleBulletShot" type="String">0xFFFFFFFF</field>
+              <field name="sndSingleBulletShot" type="String">0x00017076</field>
               <field name="sndtpSingleBulletShotType" type="Int32">8</field>
               <field name="sndStartAutoBulletShot" type="String">0xFFFFFFFF</field>
               <field name="sndStopAutoBulletShot" type="String">0xFFFFFFFF</field>
