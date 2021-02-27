@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Converted by FCBConverter v20210204-0900, author ArmanIII.-->
+<!--Based on Gibbed's Dunia Tools. Special thanks to: Fireboyd78 (FCBastard), Gibbed, xBaebsae-->
+<!--
+Please remember that types are calculated and they may not be exactly the same as they are. Take care about this.
+To change a value, set "type" attribute to a string which is after value-**here**. Example:
+Changing
+  <field hash="ABDC41FE" name="fMaxHealth" value-Float32="1000" type="BinHex">00007A44</field>
+to
+  <field hash="ABDC41FE" name="fMaxHealth" type="Float32">1000</field>
+-->
+<object hash="256A1FF9" name="EntityPrototype">
+  <field hash="8EDB0295" name="disLibItemId" value-Id64="7851068413112" type="BinHex">B8D424F823070000</field>
+  <field hash="B435B769" name="text_hidArchetypeResId" value-String="entityarchetypeslibrary\7851068413112.ark.fcb" type="BinHex">656E74697479617263686574797065736C6962726172795C373835313036383431333131322E61726B2E66636200</field>
+  <field hash="2D90D933" name="hidArchetypeResId" value-ComputeHash64="entityarchetypeslibrary\7851068413112.ark.fcb" type="BinHex">4B0A7723F60A667B</field>
+  <field hash="FE11D138" name="Name" value-String="MS16.DONOTUSE_TROOPER" type="BinHex">4D5331362E444F4E4F545553455F54524F4F50455200</field>
+  <field hash="6EA390DB" name="ArchetypeName" value-String="fcc_interactive:pickups:weapons:ms16.donotuse_trooper" type="BinHex">6663635F696E7465726163746976653A7069636B7570733A776561706F6E733A6D7331362E646F6E6F747573655F74726F6F70657200</field>
+  <object hash="0984415E" name="Entity">
+    <field hash="B9295CC7" name="hidName" value-String="FCC_Interactive:Pickups:Weapons:MS16.DONOTUSE_TROOPER" type="BinHex">4643435F496E7465726163746976653A5069636B7570733A576561706F6E733A4D5331362E444F4E4F545553455F54524F4F50455200</field>
+    <field hash="D2B3429E" name="text_hidEntityClass" value-String="CEntity" type="BinHex">43456E7469747900</field>
+    <field hash="1875AE89" name="hidEntityClass" value-ComputeHash32="CEntity" type="BinHex">6750C950</field>
+    <field hash="ADC3BD93" name="hidResourceCount" value-Int32="8" type="BinHex">08000000</field>
+    <field hash="B554978A" name="hidConstEntity" type="BinHex">00</field>
+    <field hash="B435B769" name="text_hidArchetypeResId" value-String="entityarchetypeslibrary\7851068413112.ark.fcb" type="BinHex">656E74697479617263686574797065736C6962726172795C373835313036383431333131322E61726B2E66636200</field>
+    <field hash="2D90D933" name="hidArchetypeResId" value-ComputeHash64="entityarchetypeslibrary\7851068413112.ark.fcb" type="BinHex">4B0A7723F60A667B</field>
+    <object hash="A115F62D" name="Components">
+      <object hash="2BB2A5F0" name="CPickupWeapon">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="C48BEE15" name="bEnable" value-Boolean="True" type="BinHex">01</field>
+        <field hash="3DDE91B5" name="fRespawnTime" value-Float32="0" type="BinHex">00000000</field>
+        <field hash="9BB2FE1D" name="bCustomBoundingBox" value-Boolean="True" type="BinHex">01</field>
+        <field hash="B41FA94F" name="vectorBoundingBoxSize" value-Vector3="1,1,1" type="BinHex">0000803F0000803F0000803F</field>
+        <field hash="22F0A675" name="vectorBoundingBoxOffset" value-Vector3="0,0.15,0" type="BinHex">000000009A99193E00000000</field>
+        <field hash="85E5D26B" name="vectorMaxSpawningAngularVelocity" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+        <field hash="B3F80271" name="bAffectedLightPickup" value-Boolean="True" type="BinHex">01</field>
+        <field hash="834F4280" name="bPickable" value-Boolean="True" type="BinHex">01</field>
+        <field hash="5CFE93AD" name="sUsageString" value-String="switchweapon" type="BinHex">737769746368776561706F6E00</field>
+        <field hash="368A3C98" name="locidDisplayString" value-Int32="0" type="BinHex">00000000</field>
+        <field hash="D34BE8AC" name="fileGeometryPreload" type="BinHex">00</field>
+        <field hash="9BD0BE71" name="Priority" value-Int32="0" type="BinHex">00000000</field>
+        <field hash="CA4E7031" name="bCanBeScouted" value-Boolean="False" type="BinHex">00</field>
+        <field hash="C1CAB5E3" name="bDisableOnPick" value-Boolean="True" type="BinHex">01</field>
+        <field hash="BEBF4938" name="bInstantPickup" value-Boolean="False" type="BinHex">00</field>
+        <field hash="1F1B8C9E" name="bInstantPickupExtended" value-Boolean="False" type="BinHex">00</field>
+        <field hash="01C0E344" name="bPickUpOnDestroy" value-Boolean="False" type="BinHex">00</field>
+        <field hash="D32094A0" name="bPickUpOnAnyDamage" value-Boolean="False" type="BinHex">00</field>
+        <field hash="6F594A16" name="bPickUpOnBurn" value-Boolean="False" type="BinHex">00</field>
+        <field hash="BDACC35E" name="bPickUpOnMolotovExplosion" value-Boolean="False" type="BinHex">00</field>
+        <field hash="3978F6C1" name="bIsProp" value-Boolean="False" type="BinHex">00</field>
+        <field hash="E7693EC4" name="bIsProjectilePickup" value-Boolean="False" type="BinHex">00</field>
+        <field hash="4CF7EA13" name="text_fileAnimationOnPickup" value-String="" type="BinHex">00</field>
+        <field hash="F0AD80B3" name="fileAnimationOnPickup" type="BinHex">FFFFFFFFFFFFFFFF</field>
+        <field hash="15880CC8" name="arkWeapon" value-Id64="7851067757843" type="BinHex">13D51AF823070000</field>
+        <field hash="E85AE9F6" name="iMinAmmo" value-Int32="10" type="BinHex">0A000000</field>
+        <field hash="EBA909B9" name="iMaxAmmo" value-Int32="10" type="BinHex">0A000000</field>
+        <field hash="A8A45427" name="iMinAmmoNeededInClip" value-Int32="10" type="BinHex">0A000000</field>
+        <field hash="0F90D45E" name="iMaxAmmoNeededInClip" value-Int32="10" type="BinHex">0A000000</field>
+        <object hash="F68F03C7" name="Sounds">
+          <field hash="7DD97794" name="sndPickupGrabSound_1st" value-String="0x00456BC0" type="BinHex">3078303034353642433000</field>
+          <field hash="A57B9EFC" name="sndtpPickupGrabSoundType_1st" value-Int32="15" type="BinHex">0F000000</field>
+          <field hash="7AF182DF" name="sndPickupGrabSound_3rd" value-String="0x004F012A" type="BinHex">3078303034463031324100</field>
+          <field hash="A2536BB7" name="sndtpPickupGrabSoundType_3rd" value-Int32="14" type="BinHex">0E000000</field>
+          <field hash="76EFA64C" name="sndPickupEquipSound_1st" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+          <field hash="5D822A3D" name="sndtpPickupEquipSoundType_1st" type="BinHex">FFFFFFFF</field>
+          <field hash="71C75307" name="sndPickupEquipSound_3rd" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+          <field hash="5AAADF76" name="sndtpPickupEquipSoundType_3rd" type="BinHex">FFFFFFFF</field>
+          <field hash="C2D6DE63" name="mpbarkBarkId" type="BinHex">00</field>
+        </object>
+        <object hash="21A15F03" name="SoundsWeapon">
+          <field hash="8795AE25" name="sndPickAmmo" value-String="0x004554F1" type="BinHex">3078303034353534463100</field>
+          <field hash="0FD74DA4" name="sndtpPickAmmoSoundType" value-Int32="15" type="BinHex">0F000000</field>
+        </object>
+        <object hash="C1587501" name="Attachments">
+          <object hash="3602DA6B" name="Attachment">
+            <field hash="AAF8D3F1" name="text_Attachment" value-String="" type="BinHex">00</field>
+            <field hash="3602DA6B" name="Attachment" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+      </object>
+      <object hash="35FD2B44" name="CSoundComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="EEACC4D5" name="sndptSoundPoint" value-Id64="4294967295" type="BinHex">FFFFFFFF00000000</field>
+        <field hash="8EA089E8" name="bStopSoundOnStateChange" value-Boolean="False" type="BinHex">00</field>
+        <field hash="8F8A0C11" name="bAlwaysUpdate" value-Boolean="False" type="BinHex">00</field>
+      </object>
+      <object hash="049C7D70" name="CFileDescriptorComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="2A7BCA49" name="text_fileName" value-String="graphics\_common\weapons\mk16\mk16_tp.xml" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6D6B31365C6D6B31365F74702E786D6C00</field>
+        <field hash="9C39465B" name="fileName" value-ComputeHash64="graphics\_common\weapons\mk16\mk16_tp.xml" type="BinHex">8322D2CCA48A4581</field>
+        <field hash="A137E136" name="hidDescriptor" legacy="1">
+          <hidDescriptor>
+            <component class="GraphicComponent" version="2" detail="0">
+              <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0530467,-0.301539,-0.133096" bboxMax="0.0307688,0.720564,0.0954398" />
+              <resource fileName="graphics\_Common\Weapons\MK16\MK16_TP.xbg" bboxMin="-0.0530467,-0.301539,-0.133409" bboxMax="0.0307688,0.720564,0.0954398" />
+              <skeleton_reference_list>
+                <skeleton name="MK16" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                  <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                  <bone name="FX_FIRE" pos="0,0.704862,0.05302" rot="1,0,0,0" />
+                  <bone name="FX_CASING" pos="-0.014452,0.180774,0.063458" rot="0.67438,0.212631,0.212631,0.67438" />
+                  <bone name="IK_LeftHand" pos="0,0.390228,0.017316" rot="1,0,0,0" />
+                  <bone name="SLIDE" pos="0,0.230149,0.087784" rot="1,0,0,0">
+                    <bone name="BOLTSLIDE" pos="0,0.076271,-0.042889" rot="1,0,0,0" />
+                    <bone name="BOLT" pos="0,0.00316,-0.035494" rot="1,0,0,0" />
+                  </bone>
+                  <bone name="CLIP" pos="0,0.194494,-0.003162" rot="1,0,0,0">
+                    <bone name="BULLET" pos="0,-0.044507,0.031526" rot="1,0,0,0" />
+                  </bone>
+                  <bone name="ATTACH_SCOPE" pos="0,0.19185,0.080841" rot="1,0,0,0" />
+                  <bone name="ATTACH_SILENCER" pos="0,0.681302,0.052191" rot="1,0,0,0" />
+                  <bone name="ATTACH_POINTER" pos="-0.021365,0.494594,0.036991" rot="1,0,0,0" />
+                  <bone name="IRONSIGHT" pos="0,0.666866,0.087055" rot="1,0,0,0" />
+                  <bone name="METALRING" pos="-0.028851,0.123038,0.012161" rot="1,0,0,0" />
+                  <bone name="MAGRELEASE" pos="0,0.143391,-0.019402" rot="1,0,0,0" />
+                  <bone name="ANCHOR" pos="0,0,0" rot="1,0,0,0" />
+                </skeleton>
+              </skeleton_reference_list>
+              <material_reference_list>
+                <material name="MK16_Metal_2" shader_name="Metal" ref_shader_id="grassam-M-2501201251154413" hd="0" />
+                <material name="MK16_Plastic2" shader_name="Metal" ref_shader_id="grassam-M-2309201154997591" hd="0" />
+                <material name="MK16_Plastic" shader_name="Metal" ref_shader_id="grassam-M-0508201150269074" hd="0" />
+                <material name="MK16_Metal" shader_name="Metal" ref_shader_id="grassam-M-0508201149786543" hd="0" />
+              </material_reference_list>
+            </component>
+            <component class="InteriorVolumeComponent" version="1" detail="0" />
+            <component class="RigidPhysComponent">
+              <resource fileName="graphics\_Common\Weapons\MK16\MK16_TP.hkx" />
+            </component>
+          </hidDescriptor>
+        </field>
+      </object>
+      <object hash="035982C6" name="CGraphicComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="A44AF3A2" name="bCastShadow" value-Boolean="True" type="BinHex">01</field>
+        <field hash="1BBE7E7E" name="bReceiveShadow" value-Boolean="True" type="BinHex">01</field>
+        <field hash="0315431A" name="bCastAmbientShadow" value-Boolean="True" type="BinHex">01</field>
+        <field hash="9EE14321" name="olgLightGroup" value-Int32="257" type="BinHex">01010000</field>
+        <field hash="2CAEC0CE" name="bShowInReflection" value-Boolean="False" type="BinHex">00</field>
+        <field hash="C768C8C1" name="bAlwaysShowInReflection" value-Boolean="False" type="BinHex">00</field>
+        <field hash="5A39DD06" name="bHighLight" value-Boolean="False" type="BinHex">00</field>
+        <field hash="E00D6FE5" name="bLodDitheringEnable" value-Boolean="True" type="BinHex">01</field>
+        <field hash="CB8FE15B" name="matIntuitionMaterialName" value-String="graphics\_materials\jprajotte-M-20100916104744.material.xml" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7072616A6F7474652D4D2D32303130303931363130343734342E6D6174657269616C2E786D6C00</field>
+        <field hash="D644428B" name="bShowThroughWithFlashing" value-Boolean="False" type="BinHex">00</field>
+        <field hash="430471E5" name="bBackDrop" value-Boolean="False" type="BinHex">00</field>
+        <field hash="ECA8B839" name="bDisableMip0ResourceLoading" value-Boolean="False" type="BinHex">00</field>
+        <field hash="F41DCC4F" type="BinHex">0000000000000000</field>
+        <field hash="5AEB5E41" name="bAllowCullBySize" value-Boolean="True" type="BinHex">01</field>
+        <field hash="C7B76B1D" name="bMotionBlurExclusion" value-Boolean="False" type="BinHex">00</field>
+        <field hash="F69AA1BF" name="text_currentSkin" value-String="" type="BinHex">00</field>
+        <field hash="E6DC21EC" name="currentSkin" type="BinHex">FFFFFFFF</field>
+        <field hash="22CB46E0" name="bUseCurrentSkin" value-Boolean="False" type="BinHex">00</field>
+        <object hash="8576A3A6" name="MaterialLightSwitch">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="4cd9c394333e1c36" type="BinHex">361C3E3394C3D94C</field>
+          <object hash="B3864C0F" name="MaterialSlots">
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0508201149786543.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303530383230313134393738363534332E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0508201149786543.material.bin" type="BinHex">D000F57CFB9D3D3A</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-2309201154997591.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D323330393230313135343939373539312E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-2309201154997591.material.bin" type="BinHex">A9D65AD2942CE63B</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0508201150269074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303530383230313135303236393037342E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0508201150269074.material.bin" type="BinHex">1BA8D8CDE24B5C47</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-2501201251154413.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D323530313230313235313135343431332E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-2501201251154413.material.bin" type="BinHex">103B8C848784FA52</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object hash="0FA60B61" name="MaterialOverrides">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="9ba67aec2c180484" type="BinHex">8404182CEC7AA69B</field>
+          <object hash="B3864C0F" name="MaterialSlots">
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0508201149786543.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303530383230313134393738363534332E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0508201149786543.material.bin" type="BinHex">D000F57CFB9D3D3A</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-2309201154997591.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D323330393230313135343939373539312E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-2309201154997591.material.bin" type="BinHex">A9D65AD2942CE63B</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0508201150269074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303530383230313135303236393037342E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0508201150269074.material.bin" type="BinHex">1BA8D8CDE24B5C47</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-2501201251154413.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D323530313230313235313135343431332E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-2501201251154413.material.bin" type="BinHex">103B8C848784FA52</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object hash="FB7D2CD7" name="SkinList">
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="" type="BinHex">00</field>
+            <field hash="5E237E06" name="name" type="BinHex">FFFFFFFF</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="-1" type="BinHex">FFFFFFFF</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="1a9641302cfd8b37" type="BinHex">378BFD2C3041961A</field>
+              <object hash="B3864C0F" name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="0" type="BinHex">00000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="graphics\_common\weapons\mk16\mk16_tp.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6D6B31365C6D6B31365F74702E78626700</field>
+          <field hash="C28D45A8" name="fileModel" value-ComputeHash64="graphics\_common\weapons\mk16\mk16_tp.xbg" type="BinHex">8322D2CCA41A1C8E</field>
+          <field hash="3D5AC03A" name="hidMeshName" value-String="FRAME" type="BinHex">4652414D4500</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="FRAME" type="BinHex">4652414D4500</field>
+          <field hash="F1E66E05" name="hidNodeName" value-ComputeHash32="FRAME" type="BinHex">7DFEAC42</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="FRAME_LOD0" type="BinHex">4652414D455F4C4F443000</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" value-ComputeHash32="FRAME_LOD0" type="BinHex">BBF47F11</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="1" type="BinHex">01000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="" type="BinHex">00</field>
+          <field hash="C28D45A8" name="fileModel" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="3D5AC03A" name="hidMeshName" type="BinHex">00</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="" type="BinHex">00</field>
+          <field hash="F1E66E05" name="hidNodeName" type="BinHex">FFFFFFFF</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="" type="BinHex">00</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" type="BinHex">FFFFFFFF</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="672DC5E3" name="hidSharedDescriptors">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="96cc6d746ddbb8bd" type="BinHex">BDB8DB6D746DCC96</field>
+        </object>
+      </object>
+      <object hash="40B958BA" name="CRigidPhysComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="527E7674" name="text_hidResourceId" value-String="graphics\_common\weapons\mk16\mk16_tp.hkx" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6D6B31365C6D6B31365F74702E686B7800</field>
+        <field hash="2E50EB85" name="hidResourceId" value-ComputeHash64="graphics\_common\weapons\mk16\mk16_tp.hkx" type="BinHex">8322D2CCA431809C</field>
+        <field hash="C784A41F" type="BinHex">01</field>
+        <field hash="EFFCA0CA" name="bDisabledAtStart" value-Boolean="False" type="BinHex">00</field>
+        <field hash="976F114C" name="bAlwaysStatic" value-Boolean="False" type="BinHex">00</field>
+        <field hash="1CFFDBEC" name="bCreateAsStatic" value-Boolean="False" type="BinHex">00</field>
+        <field hash="68C1CF4F" name="bAnimateableAlwaysKeyFrame" value-Boolean="False" type="BinHex">00</field>
+        <field hash="6EB9AFAA" name="bEaseAddToWorld" value-Boolean="True" type="BinHex">01</field>
+        <field hash="CAA1B825" name="bUseFastCollision" value-Boolean="False" type="BinHex">00</field>
+        <field hash="CD8C3274" name="bDisappearOnDeath" value-Boolean="False" type="BinHex">00</field>
+        <field hash="5BABAAC6" name="bUseMaxTerrainSlope" value-Boolean="False" type="BinHex">00</field>
+        <field hash="0DBE2127" name="fHealth" value-Float32="100" type="BinHex">0000C842</field>
+        <field hash="43EBE31F" name="fMinimumSpeedForDamageStim" value-Float32="6" type="BinHex">0000C040</field>
+        <field hash="9EBBF0BE" name="fSelfCollOverrideSpeed" value-Float32="200" type="BinHex">00004843</field>
+        <field hash="5E9FE0F4" name="selCollisionLayer" value-Enum="2" type="BinHex">02000000</field>
+        <field hash="A0C9D351" name="ResourceIndex" value-Int32="0" type="BinHex">00000000</field>
+        <field hash="3D255EB4" name="fMass" value-Float32="-1" type="BinHex">000080BF</field>
+        <field hash="6979CD98" name="fAngularDamp" value-Float32="-1" type="BinHex">000080BF</field>
+        <field hash="10544067" name="fRestitutionFactor" value-Float32="1" type="BinHex">0000803F</field>
+        <field hash="19373762" name="fPierceImpulseFactor" value-Float32="1" type="BinHex">0000803F</field>
+        <field hash="6C655DC9" name="vectorCenterOfMassOffset" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+        <field hash="2FAB0399" name="fFloatingScale" value-Float32="0.3" type="BinHex">9A99993E</field>
+        <field hash="4B920C34" name="fWaterFriction" value-Float32="0.5" type="BinHex">0000003F</field>
+        <field hash="E7CD1E54" name="fWaterForceFactor" value-Float32="0.5" type="BinHex">0000003F</field>
+        <field hash="377CBB2A" name="sndDestructionSound" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+        <field hash="46C19CCF" name="sndtpDestructionSoundType" type="BinHex">FFFFFFFF</field>
+        <field hash="1B5C5211" name="bSupportExternalConstraint" value-Boolean="False" type="BinHex">00</field>
+        <field hash="B2AC9745" name="bLockPosXY" value-Boolean="False" type="BinHex">00</field>
+        <field hash="6631BD1F" name="bActivateOnCreate" value-Boolean="False" type="BinHex">00</field>
+        <object hash="18327EA1" name="LogicMaterialOverrides" />
+        <object hash="C6CC131E" name="hidTheSharedMap">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="86b8c40898de0042" type="BinHex">4200DE9808C4B886</field>
+        </object>
+        <object hash="F8CD54EF" name="hidEffectBones" />
+        <object hash="2C3872D7" name="Stim">
+          <field hash="1BD9687D" name="bPierceStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="A82A04B0" name="bCrushStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="2CE04FBD" name="bBurnStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="66E259A4" name="bExplosionStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="D0D0214E" name="bExplosionGrenadeStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="84C61665" name="bExplosionRPGStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="F5A437A9" name="bExplosionIEDStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="CD44BAF4" name="bExplosionSplashStim" value-Boolean="False" type="BinHex">00</field>
+          <field hash="D5DFD00B" name="bArrowStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="D8CE60FD" name="bCutStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="9DB43150" name="bAnimalCrushStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="C7284E44" name="bRiddenAnimalAttackStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="FC82B1DA" name="bRiddenAnimalImpulseAtPos" value-Boolean="True" type="BinHex">01</field>
+          <field hash="85F6E5EF" name="bKickingStim" value-Boolean="True" type="BinHex">01</field>
+          <field hash="3CC3447B" name="fPierceDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="7E69602B" name="fCrushDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="0FD3A7FE" name="fBurnDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="AF05B5DA" name="fExplosionDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="EF60D3E5" name="fExplosionGrenadeDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="0E383244" name="fExplosionRPGDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="2E4EF419" name="fExplosionIEDDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="B400C023" name="fExplosionSplashDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="331A65A7" name="fArrowDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="EC4E2508" name="fCutDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="8E73DE2E" name="fAnimalCrushDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="5E11AAC1" name="fRiddenAnimalAttackDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="D509DE5D" name="fKickingDamageMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="7B2F6D28" name="fBulletImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="FA5898B1" name="fExplosionImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="41FBA420" name="fRiddenAnimalAttackImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="87F53B8B" name="fAnimalCrushStimImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="1ED338AB" name="fAnimalCrushStimAngularImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="6FB1A7E4" name="fRiddenAnimalCrushStimAngularImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="8C05E605" name="fKickingImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="DAC33C62" name="fCutImpulseScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="45E3B9A7" name="vectorRiddenAnimalCrushStimRandomAngularImpulseScale" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+        </object>
+      </object>
+      <object hash="004F6538" name="CPickupNetworkComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="405CF609" name="bShouldBeDiscovered" value-Boolean="True" type="BinHex">01</field>
+      </object>
+      <object hash="AC9A6073" name="CObjectSoundAndFXComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <object hash="C3A5C531" name="Impact">
+          <field hash="CBCF835A" name="matimpDropImpact" value-Id64="1959590883" type="BinHex">E3FBCC7400000000</field>
+          <field hash="86A8A2DC" name="fSpeedForMaxDropImpactVolume" value-Float32="0" type="BinHex">00000000</field>
+          <field hash="0D713BF1" name="fMinimalCollisionSpeed" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="7862FEF3" name="bIsSingleDropImpactObject" value-Boolean="False" type="BinHex">00</field>
+          <object hash="0F3AB874" name="MovementSound">
+            <field hash="D5AF4127" name="sndRollingSound" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+            <field hash="AAB8E5DC" name="sndRollingSoundEnd" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+            <field hash="4057D6C6" name="sndtpRollingSoundType" type="BinHex">FFFFFFFF</field>
+            <field hash="8A190215" name="sndSlidingSound" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+            <field hash="7401DE02" name="sndSlidingSoundEnd" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+            <field hash="21E2902E" name="sndtpSlidingSoundType" type="BinHex">FFFFFFFF</field>
+            <field hash="4BC9F599" name="sndmlObjectMovementMultilayer" type="BinHex">FFFFFFFF</field>
+          </object>
+        </object>
+        <object hash="3B83D348" name="Falling">
+          <field hash="FE2AB381" name="bAllowAfterCollision" value-Boolean="False" type="BinHex">00</field>
+          <field hash="88C7BCA2" name="sndFallingSound" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+          <field hash="498F1610" name="sndtpFallingType" type="BinHex">FFFFFFFF</field>
+          <field hash="32145F6F" name="fSpeedToPlayFallingSound" value-Float32="0" type="BinHex">00000000</field>
+          <field hash="A1B5C273" name="FallingSoundTimeTrigger" value-Int32="0" type="BinHex">00000000</field>
+        </object>
+        <object hash="3AF23BDE" name="Water">
+          <field hash="62210CA0" name="fZMinSpeedToTriggerSplash" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="66BB3D8A" name="fZMaxSpeedToTriggerSplash" value-Float32="5" type="BinHex">0000A040</field>
+          <field hash="B23A882C" name="fZMinSplashScale" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="0B1C135D" name="fZMaxSplashScale" value-Float32="1.2" type="BinHex">9A99993F</field>
+          <field hash="147B67CE" name="fZSpeedForMaxSplashVolume" value-Float32="0" type="BinHex">00000000</field>
+        </object>
+        <object hash="74059CE1" name="WaterWave">
+          <field hash="2A2CFAB4" name="zSpeedToTriggerWaterWave" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="E7FA2737" name="zMaxSpeedToTriggerWaterWave" value-Float32="5" type="BinHex">0000A040</field>
+          <field hash="89126D82" name="minWaterWavePressure" value-Float32="0.2" type="BinHex">CDCC4C3E</field>
+          <field hash="A06C909A" name="maxWaterWavePressure" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="5325BD31" name="minWaterWaveSpeed" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="46AE69C3" name="maxWaterWaveSpeed" value-Float32="1.5" type="BinHex">0000C03F</field>
+          <field hash="7E79CD1B" name="minWaterWaveWaveLength" value-Float32="0.2" type="BinHex">CDCC4C3E</field>
+          <field hash="3F6EF29D" name="maxWaterWaveWaveLength" value-Float32="0.4" type="BinHex">CDCCCC3E</field>
+          <field hash="50E24D25" name="minWaterWaveDuration" value-Float32="0.5" type="BinHex">0000003F</field>
+          <field hash="799CB03D" name="maxWaterWaveDuration" value-Float32="1.5" type="BinHex">0000C03F</field>
+          <field hash="5E109A1D" name="minWaterWaveStartTime" value-Int32="0" type="BinHex">00000000</field>
+          <field hash="4D557CB6" name="maxWaterWaveStartTime" value-Float32="0.2" type="BinHex">CDCC4C3E</field>
+          <field hash="94A94910" name="minWaterWaveTimeExponent" value-Float32="1" type="BinHex">0000803F</field>
+          <field hash="4F161AF7" name="maxWaterWaveTimeExponent" value-Float32="1" type="BinHex">0000803F</field>
+        </object>
+      </object>
+    </object>
+  </object>
+  <object hash="D9C50D17" name="ResPack">
+    <field hash="44186B66" name="Count" value-Int32="18" type="BinHex">12000000</field>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CPhysResource" type="BinHex">FD8EE83A</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_common\weapons\mk16\mk16_tp.hkx" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CParticlesSystemParamResource" type="BinHex">121C6044</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="newparticles\7661492692456.part" />
+        <ResId ID="newparticles\7661492719174.part" />
+        <ResId ID="newparticles\7661492731668.part" />
+        <ResId ID="newparticles\7661492671690.part" />
+        <ResId ID="newparticles\7880231126741.part" />
+        <ResId ID="newparticles\7661492683022.part" />
+        <ResId ID="newparticles\7661492713030.part" />
+        <ResId ID="newparticles\7661492705534.part" />
+        <ResId ID="newparticles\7661478114580.part" />
+        <ResId ID="newparticles\7806707873306.part" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CSoundResource" type="BinHex">D850F463</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="soundbinary\004554f1.spk" />
+        <ResId ID="soundbinary\0002ee18.spk" />
+        <ResId ID="soundbinary\004f012a.spk" />
+        <ResId ID="soundbinary\00456bc0.spk" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CGeometryResource" type="BinHex">BEE8E886</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_common\weapons\mk16\mk16_tp.xbg" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CEntityArchetypeRes" type="BinHex">19D22F9E</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="entityarchetypeslibrary\7851067757843.ark.fcb" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CMaterialResource" type="BinHex">775382BC</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_materials\jprajotte-m-20100916104744.material.bin" />
+      </field>
+    </object>
+  </object>
+</object>
