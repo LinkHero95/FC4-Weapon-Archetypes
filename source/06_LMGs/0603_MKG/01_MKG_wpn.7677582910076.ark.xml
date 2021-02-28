@@ -1,0 +1,1420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Converted by FCBConverter v20210204-0900, author ArmanIII.-->
+<!--Based on Gibbed's Dunia Tools. Special thanks to: Fireboyd78 (FCBastard), Gibbed, xBaebsae-->
+<!--
+Please remember that types are calculated and they may not be exactly the same as they are. Take care about this.
+To change a value, set "type" attribute to a string which is after value-**here**. Example:
+Changing
+  <field hash="ABDC41FE" name="fMaxHealth" value-Float32="1000" type="BinHex">00007A44</field>
+to
+  <field hash="ABDC41FE" name="fMaxHealth" type="Float32">1000</field>
+-->
+<object hash="256A1FF9" name="EntityPrototype">
+  <field hash="8EDB0295" name="disLibItemId" value-Id64="7677582910076" type="BinHex">7C229A93FB060000</field>
+  <field hash="B435B769" name="text_hidArchetypeResId" value-String="entityarchetypeslibrary\7677582910076.ark.fcb" type="BinHex">656E74697479617263686574797065736C6962726172795C373637373538323931303037362E61726B2E66636200</field>
+  <field hash="2D90D933" name="hidArchetypeResId" value-ComputeHash64="entityarchetypeslibrary\7677582910076.ark.fcb" type="BinHex">E47BD90C2CFD6788</field>
+  <field hash="FE11D138" name="Name" value-String="FC3/MKG" type="BinHex">4643332F4D4B4700</field>
+  <field hash="6EA390DB" name="ArchetypeName" value-String="weapons:fc3/mkg" type="BinHex">776561706F6E733A6663332F6D6B6700</field>
+  <object hash="0984415E" name="Entity">
+    <field hash="B9295CC7" name="hidName" value-String="weapons:FC3/MKG" type="BinHex">776561706F6E733A4643332F4D4B4700</field>
+    <field hash="D2B3429E" name="text_hidEntityClass" value-String="CEntity" type="BinHex">43456E7469747900</field>
+    <field hash="1875AE89" name="hidEntityClass" value-ComputeHash32="CEntity" type="BinHex">6750C950</field>
+    <field hash="ADC3BD93" name="hidResourceCount" value-Int32="44" type="BinHex">2C000000</field>
+    <field hash="B554978A" name="hidConstEntity" type="BinHex">00</field>
+    <field hash="B435B769" name="text_hidArchetypeResId" value-String="entityarchetypeslibrary\7677582910076.ark.fcb" type="BinHex">656E74697479617263686574797065736C6962726172795C373637373538323931303037362E61726B2E66636200</field>
+    <field hash="2D90D933" name="hidArchetypeResId" value-ComputeHash64="entityarchetypeslibrary\7677582910076.ark.fcb" type="BinHex">E47BD90C2CFD6788</field>
+    <object hash="A115F62D" name="Components">
+      <object hash="049C7D70" name="CFileDescriptorComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="2A7BCA49" name="text_fileName" value-String="graphics\_common\weapons\lmg\minimi.xml" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D692E786D6C00</field>
+        <field hash="9C39465B" name="fileName" value-ComputeHash64="graphics\_common\weapons\lmg\minimi.xml" type="BinHex">D4E1C4632BD523F3</field>
+        <field hash="A137E136" name="hidDescriptor" legacy="1">
+          <hidDescriptor>
+            <component class="GraphicComponent" version="2" detail="0">
+              <object index="0" meshName="FRAME" boneName="FRAME" bboxMin="-0.0533925,-0.564446,0.0138862" bboxMax="0.0466999,0.168326,0.17192" />
+              <object index="1" meshName="SLIDE" boneName="SLIDE" bboxMin="-0.058475,-0.0523326,-0.0100566" bboxMax="-8.27202e-009,0.0519118,0.00883338" />
+              <object index="2" meshName="BACK_SIGHT_ROTATION" boneName="BACK_SIGHT_ROTATION" bboxMin="-0.0330089,-0.0789443,-0.0104585" bboxMax="0.0212127,0.00830439,0.0107216" />
+              <object index="3" meshName="EJETOR_FLAP" boneName="EJETOR_FLAP" bboxMin="-0.00323601,-0.0491783,-0.0292151" bboxMax="0.00316129,0.0491784,0.00253032" />
+              <object index="4" meshName="RING" boneName="RING" bboxMin="-0.0249401,-0.00905975,-0.0175117" bboxMax="0.0249401,0.00230904,0.00245293" />
+              <object index="5" meshName="CLIP" boneName="CLIP" bboxMin="-0.0948301,-0.0495075,-0.11698" bboxMax="0.0857558,0.0504249,0.0880462" />
+              <object index="6" meshName="PIECES_MOUNTED" boneName="PIECES_MOUNTED" bboxMin="-0.0849032,-0.63917,-0.0294884" bboxMax="0.0849312,0.433831,0.138514" />
+              <object index="7" meshName="PIECES_HANDHELD" boneName="PIECES_HANDHELD" bboxMin="-0.03165,-0.725835,-0.0929095" bboxMax="0.0317722,0.232704,0.123435" />
+              <object index="8" meshName="MAGAZINE_FLAP" boneName="MAGAZINE_FLAP" bboxMin="-0.0247218,-0.0490789,-0.00833795" bboxMax="0.032202,0.0420375,0.00522235" />
+              <object index="9" meshName="RELOAD_BULLETS" boneName="RELOAD_BULLETS" bboxMin="-0.0391123,-0.0408471,0.065434" bboxMax="-0.0231879,0.0337592,0.0871925" />
+              <resource fileName="graphics\_Common\Weapons\LMG\MINIMI.xbg" bboxMin="-0.0948301,-0.725835,-0.11698" bboxMax="0.0857558,0.433831,0.17192" />
+              <skeleton_reference_list>
+                <skeleton name="MINIMI" index="0" pos="0,0,0" rot="1,-0,-0,-0">
+                  <bone name="FRAME" pos="0,0,0" rot="1,0,0,0" />
+                  <bone name="SLIDE" pos="-0,-0.304548,0.128302" rot="1,0,0,0" />
+                  <bone name="FX_FIRE" pos="0,0.213606,0.10215" rot="1,0,0,0" />
+                  <bone name="FX_CASING" pos="0.032942,-0.265985,0.073688" rot="0.707107,0,0,-0.707107" />
+                  <bone name="IK_LeftHand" pos="0,-0.098663,0.03561" rot="1,0,0,0" />
+                  <bone name="IRONSIGHT" pos="0,0.118147,0.163834" rot="1,0,0,0" />
+                  <bone name="BACK_SIGHT_ROTATION" pos="-0,-0.457202,0.148601" rot="1,0,0,0" />
+                  <bone name="EJETOR_FLAP" pos="0.021872,-0.265199,0.088198" rot="1,0,0,0" />
+                  <bone name="RING" pos="0,-0.557839,0.13694" rot="1,0,0,0" />
+                  <bone name="ATTACH_SCOPE" pos="4.4e-005,-0.257896,0.153327" rot="1,0,0,0" />
+                  <bone name="ATTACH_SILENCER" pos="0,0.168173,0.101969" rot="1,0,0,0" />
+                  <bone name="ATTACH_POINTER" pos="-0.026562,-0.111804,0.107857" rot="1,0,0,0" />
+                  <bone name="CLIP" pos="0,-0.265661,0" rot="1,0,0,0" />
+                  <bone name="PIECES_MOUNTED" pos="0,0,0" rot="1,0,0,0" />
+                  <bone name="PIECES_HANDHELD" pos="0,0,0" rot="1,0,0,0" />
+                  <bone name="MAGAZINE_FLAP" pos="-0.037083,-0.261682,0.094373" rot="1,0,0,0" />
+                  <bone name="RELOAD_BULLETS" pos="0,-0.265661,0" rot="1,0,0,0" />
+                </skeleton>
+              </skeleton_reference_list>
+              <material_reference_list>
+                <material name="Ammo_Bullets" shader_name="Metal" ref_shader_id="grassam-M-1805201135690580" hd="0" />
+                <material name="LMG_GENERIC_Plastic" shader_name="Metal" ref_shader_id="grassam-M-0703201241953847" hd="0" />
+                <material name="LMG_GENERIC" shader_name="Metal" ref_shader_id="grassam-M-1711201142253074" hd="0" />
+                <material name="LMG_MAIN" shader_name="Metal" ref_shader_id="grassam-M-1711201141524275" hd="0" />
+                <material name="LMG_MAG" shader_name="Metal" ref_shader_id="grassam-M-0703201237558237" hd="0" />
+                <material name="LMG_GENERIC_MAG" shader_name="Metal" ref_shader_id="grassam-M-0304201268658862" hd="0" />
+                <material name="LMG_Plastic" shader_name="Metal" ref_shader_id="grassam-M-0703201236644470" hd="0" />
+                <material name="LMG_Metallic" shader_name="Metal" ref_shader_id="grassam-M-0703201236673438" hd="0" />
+                <material name="LMG_Barrels" shader_name="Metal" ref_shader_id="grassam-M-0703201238027774" hd="0" />
+              </material_reference_list>
+            </component>
+            <component class="InteriorVolumeComponent" version="1" detail="0" />
+            <component class="RigidPhysComponent">
+              <resource fileName="graphics\_Common\Weapons\LMG\MINIMI.hkx" />
+            </component>
+          </hidDescriptor>
+        </field>
+      </object>
+      <object hash="04295A14" name="CModelSelectorComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="E4C38BF6" name="text_DefaultModel" value-String="" type="BinHex">00</field>
+        <field hash="16B1CD38" name="DefaultModel" type="BinHex">FFFFFFFF</field>
+        <object hash="8897425A" name="hidHighResModelInfo">
+          <field hash="29AA7AA5" name="Detail" type="BinHex">00</field>
+          <field hash="70A1EA5F" name="Version" value-Int32="2" type="BinHex">02000000</field>
+          <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0948301,-0.725835,-0.11698" type="BinHex">4936C2BD53D039BF3693EFBD</field>
+          <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0857558,0.433831,0.17192" type="BinHex">BDA0AF3D191FDE3ECC0B303E</field>
+          <field hash="C230E653" name="text_ModelPath" value-String="graphics\_common\weapons\lmg\minimi.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D692E78626700</field>
+          <field hash="313FD597" name="ModelPath" value-ComputeHash64="graphics\_common\weapons\lmg\minimi.xbg" type="BinHex">D4E1C4632B457AFC</field>
+          <field hash="8CCFD5B5" name="text_DescriptorPath" value-String="" type="BinHex">00</field>
+          <field hash="460939A2" name="DescriptorPath" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <object hash="74ECEE24" name="ModelObjectInfos">
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="0" type="BinHex">00000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0533925,-0.564446,0.0138862" type="BinHex">18B25ABD887F10BFF282633C</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0466999,0.168326,0.17192" type="BinHex">65483F3DA75D2C3ECC0B303E</field>
+              <field hash="F59526D0" name="MeshName" value-String="FRAME" type="BinHex">4652414D4500</field>
+              <field hash="38538B95" name="text_BoneID" value-String="FRAME" type="BinHex">4652414D4500</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="FRAME" type="BinHex">7DFEAC42</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="FRAME_LOD0" type="BinHex">4652414D455F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="FRAME_LOD0" type="BinHex">BBF47F11</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="1" type="BinHex">01000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.058475,-0.0523326,-0.0100566" type="BinHex">7B836FBDB55A56BD70C424BC</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="-8.27202E-09,0.0519118,0.00883338" type="BinHex">BB1C0EB278A1543DE2B9103C</field>
+              <field hash="F59526D0" name="MeshName" value-String="SLIDE" type="BinHex">534C49444500</field>
+              <field hash="38538B95" name="text_BoneID" value-String="SLIDE" type="BinHex">534C49444500</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="SLIDE" type="BinHex">D22CBB85</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="SLIDE_LOD0" type="BinHex">534C4944455F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="SLIDE_LOD0" type="BinHex">927987F2</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="2" type="BinHex">02000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0330089,-0.0789443,-0.0104585" type="BinHex">573407BD8DADA1BD215A2BBC</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0212127,0.00830439,0.0107216" type="BinHex">42C6AD3C230F083CA6A92F3C</field>
+              <field hash="F59526D0" name="MeshName" value-String="BACK_SIGHT_ROTATION" type="BinHex">4241434B5F53494748545F524F544154494F4E00</field>
+              <field hash="38538B95" name="text_BoneID" value-String="BACK_SIGHT_ROTATION" type="BinHex">4241434B5F53494748545F524F544154494F4E00</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="BACK_SIGHT_ROTATION" type="BinHex">3E8178C8</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="BACK_SIGHT_ROTATION_LOD0" type="BinHex">4241434B5F53494748545F524F544154494F4E5F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="BACK_SIGHT_ROTATION_LOD0" type="BinHex">C58B9C76</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="3" type="BinHex">03000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.00323601,-0.0491783,-0.0292151" type="BinHex">3D1354BB2F6F49BD8154EFBC</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.00316129,0.0491784,0.00253032" type="BinHex">A52D4F3B4A6F493DBAD3253B</field>
+              <field hash="F59526D0" name="MeshName" value-String="EJETOR_FLAP" type="BinHex">454A45544F525F464C415000</field>
+              <field hash="38538B95" name="text_BoneID" value-String="EJETOR_FLAP" type="BinHex">454A45544F525F464C415000</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="EJETOR_FLAP" type="BinHex">DF80D90C</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="EJETOR_FLAP_LOD0" type="BinHex">454A45544F525F464C41505F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="EJETOR_FLAP_LOD0" type="BinHex">D227B8AC</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="4" type="BinHex">04000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0249401,-0.00905975,-0.0175117" type="BinHex">2E4FCCBC586F14BCB2748FBC</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0249401,0.00230904,0.00245293" type="BinHex">2E4FCC3C4353173B56C1203B</field>
+              <field hash="F59526D0" name="MeshName" value-String="RING" type="BinHex">52494E4700</field>
+              <field hash="38538B95" name="text_BoneID" value-String="RING" type="BinHex">52494E4700</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="RING" type="BinHex">C21849B9</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="RING_LOD0" type="BinHex">52494E475F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="RING_LOD0" type="BinHex">A75F9D28</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="5" type="BinHex">05000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0948301,-0.0495075,-0.11698" type="BinHex">4936C2BD60C84ABD3693EFBD</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0857558,0.0504249,0.0880462" type="BinHex">BDA0AF3D578A4E3D9151B43D</field>
+              <field hash="F59526D0" name="MeshName" value-String="CLIP" type="BinHex">434C495000</field>
+              <field hash="38538B95" name="text_BoneID" value-String="CLIP" type="BinHex">434C495000</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="CLIP" type="BinHex">D3F9B59B</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="CLIP_LOD0" type="BinHex">434C49505F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="CLIP_LOD0" type="BinHex">5C0BB200</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="6" type="BinHex">06000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0849032,-0.63917,-0.0294884" type="BinHex">BBE1ADBDA5A023BFA891F1BC</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0849312,0.433831,0.138514" type="BinHex">69F0AD3D191FDE3E9DD60D3E</field>
+              <field hash="F59526D0" name="MeshName" value-String="PIECES_MOUNTED" type="BinHex">5049454345535F4D4F554E54454400</field>
+              <field hash="38538B95" name="text_BoneID" value-String="PIECES_MOUNTED" type="BinHex">5049454345535F4D4F554E54454400</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="PIECES_MOUNTED" type="BinHex">3ABD6853</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="PIECES_MOUNTED_LOD0" type="BinHex">5049454345535F4D4F554E5445445F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="PIECES_MOUNTED_LOD0" type="BinHex">BD9A72B7</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="7" type="BinHex">07000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.03165,-0.725835,-0.0929095" type="BinHex">6EA301BD53D039BF5647BEBD</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0317722,0.232704,0.123435" type="BinHex">9123023DF5496E3E7DCBFC3D</field>
+              <field hash="F59526D0" name="MeshName" value-String="PIECES_HANDHELD" type="BinHex">5049454345535F48414E4448454C4400</field>
+              <field hash="38538B95" name="text_BoneID" value-String="PIECES_HANDHELD" type="BinHex">5049454345535F48414E4448454C4400</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="PIECES_HANDHELD" type="BinHex">E426848C</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="PIECES_HANDHELD_LOD0" type="BinHex">5049454345535F48414E4448454C445F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="PIECES_HANDHELD_LOD0" type="BinHex">34CDAE4D</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="8" type="BinHex">08000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0247218,-0.0490789,-0.00833795" type="BinHex">5F85CABCF50649BDE69B08BC</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.032202,0.0420375,0.00522235" type="BinHex">3FE6033D832F2C3D3F20AB3B</field>
+              <field hash="F59526D0" name="MeshName" value-String="MAGAZINE_FLAP" type="BinHex">4D4147415A494E455F464C415000</field>
+              <field hash="38538B95" name="text_BoneID" value-String="MAGAZINE_FLAP" type="BinHex">4D4147415A494E455F464C415000</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="MAGAZINE_FLAP" type="BinHex">00AFA2B5</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="MAGAZINE_FLAP_LOD0" type="BinHex">4D4147415A494E455F464C41505F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="MAGAZINE_FLAP_LOD0" type="BinHex">72E2EF32</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="9" type="BinHex">09000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0391123,-0.0408471,0.065434" type="BinHex">383420BD4A4F27BD4302863D</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="-0.0231879,0.0337592,0.0871925" type="BinHex">8DF4BDBC16470A3DFB91B23D</field>
+              <field hash="F59526D0" name="MeshName" value-String="RELOAD_BULLETS" type="BinHex">52454C4F41445F42554C4C45545300</field>
+              <field hash="38538B95" name="text_BoneID" value-String="RELOAD_BULLETS" type="BinHex">52454C4F41445F42554C4C45545300</field>
+              <field hash="2DDF1266" name="BoneID" value-ComputeHash32="RELOAD_BULLETS" type="BinHex">04E45720</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="RELOAD_BULLETS_LOD0" type="BinHex">52454C4F41445F42554C4C4554535F4C4F443000</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="RELOAD_BULLETS_LOD0" type="BinHex">EA544334</field>
+            </object>
+            <object hash="AF01AEDA" name="Object">
+              <field hash="0C3C8F59" name="Slot" value-Int32="0" type="BinHex">00000000</field>
+              <field hash="DFF6FA84" name="BBoxMin" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+              <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+              <field hash="F59526D0" name="MeshName" type="BinHex">00</field>
+              <field hash="38538B95" name="text_BoneID" value-String="" type="BinHex">00</field>
+              <field hash="2DDF1266" name="BoneID" type="BinHex">FFFFFFFF</field>
+              <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="" type="BinHex">00</field>
+              <field hash="7B1C12AD" name="BoneIDLOD0" type="BinHex">FFFFFFFF</field>
+            </object>
+          </object>
+          <object hash="3BF78D41" name="ModelMaterialInfos">
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="ammo_bullets" type="BinHex">616D6D6F5F62756C6C65747300</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="ammo_bullets" type="BinHex">1E2906B4C073F3F5</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-1805201135690580" type="BinHex">6772617373616D2D4D2D3138303532303131333536393035383000</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_generic_plastic" type="BinHex">6C6D675F67656E657269635F706C617374696300</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_generic_plastic" type="BinHex">0CCFCA0EF05EFC29</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201241953847" type="BinHex">6772617373616D2D4D2D3037303332303132343139353338343700</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_generic" type="BinHex">6C6D675F67656E6572696300</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_generic" type="BinHex">6E2E7D22E19DCAE4</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-1711201142253074" type="BinHex">6772617373616D2D4D2D3137313132303131343232353330373400</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_main" type="BinHex">6C6D675F6D61696E00</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_main" type="BinHex">A140CE8EE06B763E</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-1711201141524275" type="BinHex">6772617373616D2D4D2D3137313132303131343135323432373500</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_mag" type="BinHex">6C6D675F6D616700</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_mag" type="BinHex">40A140CE8EE04B5E</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201237558237" type="BinHex">6772617373616D2D4D2D3037303332303132333735353832333700</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_generic_mag" type="BinHex">6C6D675F67656E657269635F6D616700</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_generic_mag" type="BinHex">E19DCA54FC2E606B</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0304201268658862" type="BinHex">6772617373616D2D4D2D3033303432303132363836353838363200</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_plastic" type="BinHex">6C6D675F706C617374696300</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_plastic" type="BinHex">7E01E18B5F98CAE4</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201236644470" type="BinHex">6772617373616D2D4D2D3037303332303132333636343434373000</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_metallic" type="BinHex">6C6D675F6D6574616C6C696300</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_metallic" type="BinHex">209DF7C7FE2D1A88</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201236673438" type="BinHex">6772617373616D2D4D2D3037303332303132333636373334333800</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="lmg_barrels" type="BinHex">6C6D675F62617272656C7300</field>
+              <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_barrels" type="BinHex">1EE93B22EEF2CDFF</field>
+              <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201238027774" type="BinHex">6772617373616D2D4D2D3037303332303132333830323737373400</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F96FAF0D" name="text_Name" value-String="" type="BinHex">00</field>
+              <field hash="FE11D138" name="Name" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="948FD30C" name="RefShaderID" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object hash="E37A353F" name="Models">
+          <object hash="16545DDD" name="Model">
+            <field hash="F96FAF0D" name="text_Name" value-String="" type="BinHex">00</field>
+            <field hash="FE11D138" name="Name" type="BinHex">FFFFFFFF</field>
+            <field hash="7F0C3F40" name="text_filePath" value-String="graphics\_common\weapons\lmg\minimi_tp.xml" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E786D6C00</field>
+            <field hash="C94EB352" name="filePath" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xml" type="BinHex">D32B2E52DCA553E3</field>
+          </object>
+          <object hash="16545DDD" name="Model">
+            <field hash="F96FAF0D" name="text_Name" value-String="" type="BinHex">00</field>
+            <field hash="FE11D138" name="Name" type="BinHex">FFFFFFFF</field>
+            <field hash="7F0C3F40" name="text_filePath" value-String="" type="BinHex">00</field>
+            <field hash="C94EB352" name="filePath" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          </object>
+        </object>
+        <object hash="024E7A69" name="hidInfos">
+          <object hash="F1E26FCF" name="ModelInfo">
+            <field hash="29AA7AA5" name="Detail" type="BinHex">00</field>
+            <field hash="70A1EA5F" name="Version" value-Int32="2" type="BinHex">02000000</field>
+            <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0948301,-0.723895,-0.116133" type="BinHex">4936C2BD2F5139BF23D7EDBD</field>
+            <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0857558,0.433842,0.172498" type="BinHex">BDA0AF3D8A20DE3E51A3303E</field>
+            <field hash="C230E653" name="text_ModelPath" value-String="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E78626700</field>
+            <field hash="313FD597" name="ModelPath" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">D32B2E52DC350AEC</field>
+            <field hash="8CCFD5B5" name="text_DescriptorPath" value-String="graphics\_common\weapons\lmg\minimi_tp.xml" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E786D6C00</field>
+            <field hash="460939A2" name="DescriptorPath" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xml" type="BinHex">D32B2E52DCA553E3</field>
+            <object hash="74ECEE24" name="ModelObjectInfos">
+              <object hash="AF01AEDA" name="Object">
+                <field hash="0C3C8F59" name="Slot" value-Int32="0" type="BinHex">00000000</field>
+                <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0921413,-0.564389,-0.116133" type="BinHex">94B4BCBDCC7B10BF23D7EDBD</field>
+                <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0857558,0.168326,0.172498" type="BinHex">BDA0AF3DA75D2C3E51A3303E</field>
+                <field hash="F59526D0" name="MeshName" value-String="FRAME" type="BinHex">4652414D4500</field>
+                <field hash="38538B95" name="text_BoneID" value-String="FRAME" type="BinHex">4652414D4500</field>
+                <field hash="2DDF1266" name="BoneID" value-ComputeHash32="FRAME" type="BinHex">7DFEAC42</field>
+                <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="FRAME_LOD0" type="BinHex">4652414D455F4C4F443000</field>
+                <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="FRAME_LOD0" type="BinHex">BBF47F11</field>
+              </object>
+              <object hash="AF01AEDA" name="Object">
+                <field hash="0C3C8F59" name="Slot" value-Int32="1" type="BinHex">01000000</field>
+                <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0234273,-0.0089193,-0.0167287" type="BinHex">9CEABFBC412212BCA00A89BC</field>
+                <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0234273,0.00176172,0.00127349" type="BinHex">9CEABF3C84E9E63A3CEBA63A</field>
+                <field hash="F59526D0" name="MeshName" value-String="RING" type="BinHex">52494E4700</field>
+                <field hash="38538B95" name="text_BoneID" value-String="RING" type="BinHex">52494E4700</field>
+                <field hash="2DDF1266" name="BoneID" value-ComputeHash32="RING" type="BinHex">C21849B9</field>
+                <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="RING_LOD0" type="BinHex">52494E475F4C4F443000</field>
+                <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="RING_LOD0" type="BinHex">A75F9D28</field>
+              </object>
+              <object hash="AF01AEDA" name="Object">
+                <field hash="0C3C8F59" name="Slot" value-Int32="2" type="BinHex">02000000</field>
+                <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0843564,-0.636846,-0.0276836" type="BinHex">0CC3ACBD570823BFB8C8E2BC</field>
+                <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0843844,0.433842,0.138114" type="BinHex">BAD1AC3D8A20DE3EC26D0D3E</field>
+                <field hash="F59526D0" name="MeshName" value-String="PIECES_MOUNTED" type="BinHex">5049454345535F4D4F554E54454400</field>
+                <field hash="38538B95" name="text_BoneID" value-String="PIECES_MOUNTED" type="BinHex">5049454345535F4D4F554E54454400</field>
+                <field hash="2DDF1266" name="BoneID" value-ComputeHash32="PIECES_MOUNTED" type="BinHex">3ABD6853</field>
+                <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="PIECES_MOUNTED_LOD0" type="BinHex">5049454345535F4D4F554E5445445F4C4F443000</field>
+                <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="PIECES_MOUNTED_LOD0" type="BinHex">BD9A72B7</field>
+              </object>
+              <object hash="AF01AEDA" name="Object">
+                <field hash="0C3C8F59" name="Slot" value-Int32="3" type="BinHex">03000000</field>
+                <field hash="DFF6FA84" name="BBoxMin" value-Vector3="-0.0307646,-0.723895,-0.092345" type="BinHex">0B06FCBC2F5139BF601FBDBD</field>
+                <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0.0308869,0.232712,0.12246" type="BinHex">8606FD3C0E4C6E3E4FCCFA3D</field>
+                <field hash="F59526D0" name="MeshName" value-String="PIECES_HANDHELD" type="BinHex">5049454345535F48414E4448454C4400</field>
+                <field hash="38538B95" name="text_BoneID" value-String="PIECES_HANDHELD" type="BinHex">5049454345535F48414E4448454C4400</field>
+                <field hash="2DDF1266" name="BoneID" value-ComputeHash32="PIECES_HANDHELD" type="BinHex">E426848C</field>
+                <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="PIECES_HANDHELD_LOD0" type="BinHex">5049454345535F48414E4448454C445F4C4F443000</field>
+                <field hash="7B1C12AD" name="BoneIDLOD0" value-ComputeHash32="PIECES_HANDHELD_LOD0" type="BinHex">34CDAE4D</field>
+              </object>
+              <object hash="AF01AEDA" name="Object">
+                <field hash="0C3C8F59" name="Slot" value-Int32="0" type="BinHex">00000000</field>
+                <field hash="DFF6FA84" name="BBoxMin" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+                <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+                <field hash="F59526D0" name="MeshName" type="BinHex">00</field>
+                <field hash="38538B95" name="text_BoneID" value-String="" type="BinHex">00</field>
+                <field hash="2DDF1266" name="BoneID" type="BinHex">FFFFFFFF</field>
+                <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="" type="BinHex">00</field>
+                <field hash="7B1C12AD" name="BoneIDLOD0" type="BinHex">FFFFFFFF</field>
+              </object>
+            </object>
+            <object hash="3BF78D41" name="ModelMaterialInfos">
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="lmg_generic_plastic" type="BinHex">6C6D675F67656E657269635F706C617374696300</field>
+                <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_generic_plastic" type="BinHex">0CCFCA0EF05EFC29</field>
+                <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201241953847" type="BinHex">6772617373616D2D4D2D3037303332303132343139353338343700</field>
+              </object>
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="lmg_generic" type="BinHex">6C6D675F67656E6572696300</field>
+                <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_generic" type="BinHex">6E2E7D22E19DCAE4</field>
+                <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-1711201142253074" type="BinHex">6772617373616D2D4D2D3137313132303131343232353330373400</field>
+              </object>
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="lmg_main" type="BinHex">6C6D675F6D61696E00</field>
+                <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_main" type="BinHex">A140CE8EE06B763E</field>
+                <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-1711201141524275" type="BinHex">6772617373616D2D4D2D3137313132303131343135323432373500</field>
+              </object>
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="lmg_generic_mag" type="BinHex">6C6D675F67656E657269635F6D616700</field>
+                <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_generic_mag" type="BinHex">E19DCA54FC2E606B</field>
+                <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0304201268658862" type="BinHex">6772617373616D2D4D2D3033303432303132363836353838363200</field>
+              </object>
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="lmg_plastic" type="BinHex">6C6D675F706C617374696300</field>
+                <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_plastic" type="BinHex">7E01E18B5F98CAE4</field>
+                <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201236644470" type="BinHex">6772617373616D2D4D2D3037303332303132333636343434373000</field>
+              </object>
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="lmg_metallic" type="BinHex">6C6D675F6D6574616C6C696300</field>
+                <field hash="FE11D138" name="Name" value-ComputeHash64="lmg_metallic" type="BinHex">209DF7C7FE2D1A88</field>
+                <field hash="948FD30C" name="RefShaderID" value-String="grassam-M-0703201236673438" type="BinHex">6772617373616D2D4D2D3037303332303132333636373334333800</field>
+              </object>
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="" type="BinHex">00</field>
+                <field hash="FE11D138" name="Name" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                <field hash="948FD30C" name="RefShaderID" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+          <object hash="F1E26FCF" name="ModelInfo">
+            <field hash="29AA7AA5" name="Detail" type="BinHex">00</field>
+            <field hash="70A1EA5F" name="Version" type="BinHex">FFFFFFFF</field>
+            <field hash="DFF6FA84" name="BBoxMin" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+            <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+            <field hash="C230E653" name="text_ModelPath" value-String="" type="BinHex">00</field>
+            <field hash="313FD597" name="ModelPath" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field hash="8CCFD5B5" name="text_DescriptorPath" value-String="" type="BinHex">00</field>
+            <field hash="460939A2" name="DescriptorPath" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <object hash="74ECEE24" name="ModelObjectInfos">
+              <object hash="AF01AEDA" name="Object">
+                <field hash="0C3C8F59" name="Slot" value-Int32="0" type="BinHex">00000000</field>
+                <field hash="DFF6FA84" name="BBoxMin" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+                <field hash="E3FBC5DD" name="BBoxMax" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+                <field hash="F59526D0" name="MeshName" type="BinHex">00</field>
+                <field hash="38538B95" name="text_BoneID" value-String="" type="BinHex">00</field>
+                <field hash="2DDF1266" name="BoneID" type="BinHex">FFFFFFFF</field>
+                <field hash="E7E61B37" name="text_BoneIDLOD0" value-String="" type="BinHex">00</field>
+                <field hash="7B1C12AD" name="BoneIDLOD0" type="BinHex">FFFFFFFF</field>
+              </object>
+            </object>
+            <object hash="3BF78D41" name="ModelMaterialInfos">
+              <object hash="85C817C3" name="Material">
+                <field hash="F96FAF0D" name="text_Name" value-String="" type="BinHex">00</field>
+                <field hash="FE11D138" name="Name" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                <field hash="948FD30C" name="RefShaderID" type="BinHex">00</field>
+              </object>
+            </object>
+          </object>
+        </object>
+        <object hash="A74E762C" name="FirstPersonModelSkinList">
+          <object hash="A24BC720" name="Skin">
+            <field hash="F96FAF0D" name="text_Name" value-String="" type="BinHex">00</field>
+            <field hash="FE11D138" name="Name" type="BinHex">FFFFFFFF</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="1a9641302cfd8b37" type="BinHex">378BFD2C3041961A</field>
+              <object hash="B3864C0F" name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+      </object>
+      <object hash="035982C6" name="CGraphicComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="A44AF3A2" name="bCastShadow" value-Boolean="True" type="BinHex">01</field>
+        <field hash="1BBE7E7E" name="bReceiveShadow" value-Boolean="True" type="BinHex">01</field>
+        <field hash="0315431A" name="bCastAmbientShadow" value-Boolean="True" type="BinHex">01</field>
+        <field hash="9EE14321" name="olgLightGroup" value-Int32="1281" type="BinHex">01050000</field>
+        <field hash="2CAEC0CE" name="bShowInReflection" value-Boolean="False" type="BinHex">00</field>
+        <field hash="C768C8C1" name="bAlwaysShowInReflection" value-Boolean="False" type="BinHex">00</field>
+        <field hash="5A39DD06" name="bHighLight" value-Boolean="False" type="BinHex">00</field>
+        <field hash="E00D6FE5" name="bLodDitheringEnable" value-Boolean="True" type="BinHex">01</field>
+        <field hash="CB8FE15B" name="matIntuitionMaterialName" value-String="graphics\_materials\jprajotte-M-20100916104744.material.xml" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7072616A6F7474652D4D2D32303130303931363130343734342E6D6174657269616C2E786D6C00</field>
+        <field hash="D644428B" name="bShowThroughWithFlashing" value-Boolean="False" type="BinHex">00</field>
+        <field hash="430471E5" name="bBackDrop" value-Boolean="False" type="BinHex">00</field>
+        <field hash="ECA8B839" name="bDisableMip0ResourceLoading" value-Boolean="False" type="BinHex">00</field>
+        <field hash="F41DCC4F" type="BinHex">0000000000000000</field>
+        <field hash="5AEB5E41" name="bAllowCullBySize" value-Boolean="True" type="BinHex">01</field>
+        <field hash="C7B76B1D" name="bMotionBlurExclusion" value-Boolean="False" type="BinHex">00</field>
+        <field hash="F69AA1BF" name="text_currentSkin" value-String="" type="BinHex">00</field>
+        <field hash="E6DC21EC" name="currentSkin" type="BinHex">FFFFFFFF</field>
+        <field hash="22CB46E0" name="bUseCurrentSkin" value-Boolean="True" type="BinHex">01</field>
+        <object hash="8576A3A6" name="MaterialLightSwitch">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="e2359ff83b55635b" type="BinHex">5B63553BF89F35E2</field>
+          <object hash="B3864C0F" name="MaterialSlots">
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object hash="0FA60B61" name="MaterialOverrides">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="98b1aaf1768508cd" type="BinHex">CD088576F1AAB198</field>
+          <object hash="B3864C0F" name="MaterialSlots">
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+            <object hash="85C817C3" name="Material">
+              <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+              <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+              <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+              <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+              <field hash="F3180894" name="disHD" type="BinHex">00</field>
+            </object>
+          </object>
+        </object>
+        <object hash="FB7D2CD7" name="SkinList">
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="var_1" type="BinHex">7661725F3100</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="var_1" type="BinHex">8B8FA208</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="167213" type="BinHex">2D8D0200</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="be2afe51838a41fa" type="BinHex">FA418A8351FE2ABE</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155054.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353035342E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155054.material.bin" type="BinHex">DDEDC3405D52061B</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806170240.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137303234302E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806170240.material.bin" type="BinHex">9A187043BD5453CB</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806165739.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363136353733392E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806165739.material.bin" type="BinHex">45737B43CD3F54BB</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155528.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353532382E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155528.material.bin" type="BinHex">02D7CC405D52B66D</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="var_2" type="BinHex">7661725F3200</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="var_2" type="BinHex">31DEAB91</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="167212" type="BinHex">2C8D0200</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="fac5c71e79a245b7" type="BinHex">B745A2791EC7C5FA</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806170109.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137303130392E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806170109.material.bin" type="BinHex">8D707B43BD54C376</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806171144.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137313134342E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806171144.material.bin" type="BinHex">990C7543BD241877</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806165915.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363136353931352E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806165915.material.bin" type="BinHex">C24D7443CD3FF44B</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155545.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353534352E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155545.material.bin" type="BinHex">9CA9C2405D52B66D</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="var_3" type="BinHex">7661725F3300</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="var_3" type="BinHex">A7EEACE6</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="167198" type="BinHex">1E8D0200</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="aa89458aaa59963a" type="BinHex">3A9659AA8A4589AA</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806171749.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137313734392E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806171749.material.bin" type="BinHex">9E757B43BD2438BC</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806171848.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137313834382E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806171848.material.bin" type="BinHex">92307A43BD24E827</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806171445.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137313434352E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806171445.material.bin" type="BinHex">9D497443BD24A801</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155606.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353630362E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155606.material.bin" type="BinHex">8B63C1405D5226D0</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="var_4" type="BinHex">7661725F3400</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="var_4" type="BinHex">047BC878</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="167209" type="BinHex">298D0200</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="22fe9b760e8d2514" type="BinHex">14258D0E769BFE22</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806173144.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137333134342E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806173144.material.bin" type="BinHex">990C7543BDC4AE74</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806173330.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137333333302E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806173330.material.bin" type="BinHex">401E7043BDC44EA2</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806172853.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137323835332E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806172853.material.bin" type="BinHex">D7D67343BDB48525</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155621.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353632312E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155621.material.bin" type="BinHex">01BAC7405D5226D0</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="var_5" type="BinHex">7661725F3500</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="var_5" type="BinHex">924BCF0F</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="167196" type="BinHex">1C8D0200</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="0dcf6169ac46397a" type="BinHex">7A3946AC6961CF0D</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155629.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353632392E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155629.material.bin" type="BinHex">0192CD405D5226D0</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806174042.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137343034322E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806174042.material.bin" type="BinHex">98927243BD94DE1A</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806173816.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137333831362E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806173816.material.bin" type="BinHex">C3827743BDC45E24</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155633.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353633332E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155633.material.bin" type="BinHex">4431C5405D5226D0</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="var_6" type="BinHex">7661725F3600</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="var_6" type="BinHex">281AC696</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="167206" type="BinHex">268D0200</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="620f011833b0ef03" type="BinHex">03EFB03318010F62</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806174518.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137343531382E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806174518.material.bin" type="BinHex">CD347A43BD946E6C</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806174941.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137343934312E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806174941.material.bin" type="BinHex">935D7143BD942E4A</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140806174322.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303830363137343332322E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140806174322.material.bin" type="BinHex">05957243BD944EA7</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155642.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353634322E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155642.material.bin" type="BinHex">9F72C4405D5226D0</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="ripper" type="BinHex">72697070657200</field>
+            <field hash="5E237E06" name="name" value-ComputeHash32="ripper" type="BinHex">6B5F45FA</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="-1" type="BinHex">FFFFFFFF</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="2aa344644a02f3ad" type="BinHex">ADF3024A6444A32A</field>
+              <object hash="B3864C0F" name="MaterialSlots">
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313830353230313133353639303538302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1805201135690580.material.bin" type="BinHex">EC817B6E89B7EA3E</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134323235333037342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201142253074.material.bin" type="BinHex">1BC9D14AFAD73A4A</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363634343437302E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236644470.material.bin" type="BinHex">8EF106F2D27AF952</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826120431.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363132303433312E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826120431.material.bin" type="BinHex">46BBC7400DE27500</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233363637333433382E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201236673438.material.bin" type="BinHex">9ADC0CF24247FB57</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313234313935333834372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201241953847.material.bin" type="BinHex">4E7950277CFAB871</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303330343230313236383635383836322E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0304201268658862.material.bin" type="BinHex">C4CA56B4DB91097D</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826120444.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363132303434342E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826120444.material.bin" type="BinHex">9DECC3400DE27500</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233373535383233372E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201237558237.material.bin" type="BinHex">9D2F70B9CEE36E90</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="" type="BinHex">00</field>
+                  <field hash="83475FEE" name="matMaterial" type="BinHex">FFFFFFFFFFFFFFFF</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D313731313230313134313532343237352E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-1711201141524275.material.bin" type="BinHex">198C4077A882DF99</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826120451.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363132303435312E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826120451.material.bin" type="BinHex">D8BCC7400DE27500</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+                <object hash="85C817C3" name="Material">
+                  <field hash="F792AA50" name="text_disSlotPathId" value-String="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6772617373616D2D6D2D303730333230313233383032373737342E6D6174657269616C2E62696E00</field>
+                  <field hash="8BBC37A1" name="disSlotPathId" value-ComputeHash64="graphics\_materials\grassam-m-0703201238027774.material.bin" type="BinHex">8DE5A3D2233500ED</field>
+                  <field hash="9301DFBD" name="text_matMaterial" value-String="graphics\_materials\jzhang2-m-20140826155654.material.bin" type="BinHex">67726170686963735C5F6D6174657269616C735C6A7A68616E67322D6D2D32303134303832363135353635342E6D6174657269616C2E62696E00</field>
+                  <field hash="83475FEE" name="matMaterial" value-ComputeHash64="graphics\_materials\jzhang2-m-20140826155654.material.bin" type="BinHex">DAEDC3405D5226D0</field>
+                  <field hash="F3180894" name="disHD" type="BinHex">00</field>
+                </object>
+              </object>
+            </object>
+          </object>
+          <object hash="A24BC720" name="Skin">
+            <field hash="595D0033" name="text_name" value-String="" type="BinHex">00</field>
+            <field hash="5E237E06" name="name" type="BinHex">FFFFFFFF</field>
+            <field hash="EDC1CA84" name="locSkinNameId" value-Int32="-1" type="BinHex">FFFFFFFF</field>
+            <field hash="A3E8C329" name="bIsExcludedFromRandomSkin" value-Boolean="False" type="BinHex">00</field>
+            <object hash="0FA60B61" name="MaterialOverrides">
+              <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="1a9641302cfd8b37" type="BinHex">378BFD2C3041961A</field>
+              <object hash="B3864C0F" name="MaterialSlots" />
+            </object>
+          </object>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="0" type="BinHex">00000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E78626700</field>
+          <field hash="C28D45A8" name="fileModel" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">D32B2E52DC350AEC</field>
+          <field hash="3D5AC03A" name="hidMeshName" value-String="FRAME" type="BinHex">4652414D4500</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="FRAME" type="BinHex">4652414D4500</field>
+          <field hash="F1E66E05" name="hidNodeName" value-ComputeHash32="FRAME" type="BinHex">7DFEAC42</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="FRAME_LOD0" type="BinHex">4652414D455F4C4F443000</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" value-ComputeHash32="FRAME_LOD0" type="BinHex">BBF47F11</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="1" type="BinHex">01000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E78626700</field>
+          <field hash="C28D45A8" name="fileModel" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">D32B2E52DC350AEC</field>
+          <field hash="3D5AC03A" name="hidMeshName" value-String="RING" type="BinHex">52494E4700</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="RING" type="BinHex">52494E4700</field>
+          <field hash="F1E66E05" name="hidNodeName" value-ComputeHash32="RING" type="BinHex">C21849B9</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="RING_LOD0" type="BinHex">52494E475F4C4F443000</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" value-ComputeHash32="RING_LOD0" type="BinHex">A75F9D28</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="2" type="BinHex">02000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E78626700</field>
+          <field hash="C28D45A8" name="fileModel" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">D32B2E52DC350AEC</field>
+          <field hash="3D5AC03A" name="hidMeshName" value-String="PIECES_MOUNTED" type="BinHex">5049454345535F4D4F554E54454400</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="PIECES_MOUNTED" type="BinHex">5049454345535F4D4F554E54454400</field>
+          <field hash="F1E66E05" name="hidNodeName" value-ComputeHash32="PIECES_MOUNTED" type="BinHex">3ABD6853</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="PIECES_MOUNTED_LOD0" type="BinHex">5049454345535F4D4F554E5445445F4C4F443000</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" value-ComputeHash32="PIECES_MOUNTED_LOD0" type="BinHex">BD9A72B7</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="3" type="BinHex">03000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F74702E78626700</field>
+          <field hash="C28D45A8" name="fileModel" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_tp.xbg" type="BinHex">D32B2E52DC350AEC</field>
+          <field hash="3D5AC03A" name="hidMeshName" value-String="PIECES_HANDHELD" type="BinHex">5049454345535F48414E4448454C4400</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="PIECES_HANDHELD" type="BinHex">5049454345535F48414E4448454C4400</field>
+          <field hash="F1E66E05" name="hidNodeName" value-ComputeHash32="PIECES_HANDHELD" type="BinHex">E426848C</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="PIECES_HANDHELD_LOD0" type="BinHex">5049454345535F48414E4448454C445F4C4F443000</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" value-ComputeHash32="PIECES_HANDHELD_LOD0" type="BinHex">34CDAE4D</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="A8ADABEC" name="object">
+          <field hash="6CF79F05" name="hidIndex" value-Int32="4" type="BinHex">04000000</field>
+          <field hash="3182766C" name="text_fileModel" value-String="" type="BinHex">00</field>
+          <field hash="C28D45A8" name="fileModel" type="BinHex">FFFFFFFFFFFFFFFF</field>
+          <field hash="3D5AC03A" name="hidMeshName" type="BinHex">00</field>
+          <field hash="E1A0EE56" name="text_hidNodeName" value-String="" type="BinHex">00</field>
+          <field hash="F1E66E05" name="hidNodeName" type="BinHex">FFFFFFFF</field>
+          <field hash="0D9C8B1A" name="text_hidNodeNameLOD0" value-String="" type="BinHex">00</field>
+          <field hash="8E85C831" name="hidNodeNameLOD0" type="BinHex">FFFFFFFF</field>
+          <field hash="8D88DEAA" name="hidDetailObject" type="BinHex">00</field>
+        </object>
+        <object hash="672DC5E3" name="hidSharedDescriptors">
+          <field hash="8ACC3499" name="hidSharedDataHandlerHash" value-Hash64="8ff3ad7e72fe9ec8" type="BinHex">C89EFE727EADF38F</field>
+        </object>
+      </object>
+      <object hash="09D5E1B2" name="CSimpleAnimationComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="F9F2D5F4" name="text_fileSkeleton" value-String="graphics\_common\weapons\lmg\minimi_ref.skeleton" type="BinHex">67726170686963735C5F636F6D6D6F6E5C776561706F6E735C6C6D675C6D696E696D695F7265662E736B656C65746F6E00</field>
+        <field hash="0B80933A" name="fileSkeleton" value-ComputeHash64="graphics\_common\weapons\lmg\minimi_ref.skeleton" type="BinHex">5047E0A6C59B72CF</field>
+        <field hash="7D06447F" name="text_sPackage" value-String="mkg" type="BinHex">6D6B6700</field>
+        <field hash="CB44C86D" name="sPackage" value-ComputeHash64="mkg" type="BinHex">00000000F000455E</field>
+        <field hash="7DA6944C" name="AutoApplyDisplacement" type="BinHex">00</field>
+        <field hash="107DB15C" name="DynamicJointWindMultiplier" value-Int32="0" type="BinHex">00000000</field>
+        <field hash="C22DBBC8" name="sPartName" value-String="minimi" type="BinHex">6D696E696D6900</field>
+        <field hash="3C2AB74C" name="bEnableEvents" value-Boolean="False" type="BinHex">00</field>
+        <field hash="3045663A" name="bRandomStart" value-Boolean="False" type="BinHex">00</field>
+        <field hash="FCAC35BB" name="text_Animation" value-String="" type="BinHex">00</field>
+        <field hash="0FA3067F" name="Animation" type="BinHex">FFFFFFFFFFFFFFFF</field>
+        <field hash="290C244A" name="bStartOnFinalize" value-Boolean="True" type="BinHex">01</field>
+        <object hash="558EB41F" name="AnimPackages">
+          <object hash="B012766C">
+            <field hash="7D06447F" name="text_sPackage" value-String="" type="BinHex">00</field>
+            <field hash="CB44C86D" name="sPackage" type="BinHex">FFFFFFFFFFFFFFFF</field>
+            <field hash="9D8873F8" name="text_hidName" value-String="entityarchetypeslibrary\7677582910076.ark.fcb" type="BinHex">656E74697479617263686574797065736C6962726172795C373637373538323931303037362E61726B2E66636200</field>
+            <field hash="B9295CC7" name="hidName" value-ComputeHash64="entityarchetypeslibrary\7677582910076.ark.fcb" type="BinHex">E47BD90C2CFD6788</field>
+          </object>
+        </object>
+        <object hash="1C6B54F0" name="DynamicJoints">
+          <object hash="5C345303" name="Joint">
+            <field hash="FD0386D8" name="bHD" value-Boolean="True" type="BinHex">01</field>
+            <field hash="EE612B8D" name="bUseParentAsConstraint" value-Boolean="False" type="BinHex">00</field>
+            <field hash="A8A633D3" name="text_JointName" value-String="" type="BinHex">00</field>
+            <field hash="5BA90017" name="JointName" type="BinHex">FFFFFFFF</field>
+            <field hash="B45DFA88" name="ZRotation" value-Int32="0" type="BinHex">00000000</field>
+            <field hash="8DD0C64D" name="YRotation" value-Int32="0" type="BinHex">00000000</field>
+            <field hash="F505D7C6" name="AngleOfRestraint" value-Float32="90" type="BinHex">0000B442</field>
+            <field hash="58F8DBD1" name="InverseMass" value-Float32="0.4" type="BinHex">CDCCCC3E</field>
+            <field hash="8BB303F6" name="Damping" value-Float32="0.95" type="BinHex">3333733F</field>
+            <field hash="0BC612A3" name="Stiffness" value-Float32="-1" type="BinHex">000080BF</field>
+            <field hash="269DDC36" name="GravityMultiplier" value-Float32="1" type="BinHex">0000803F</field>
+            <field hash="FABB5094" name="selPlaneConstraintAxis" value-Enum="-1" type="BinHex">FFFFFFFF</field>
+            <field hash="64B99515" name="selAlignedAxis" value-Enum="5" type="BinHex">05000000</field>
+          </object>
+        </object>
+        <object hash="79735648" name="EventFilterMask">
+          <field hash="8636D93E" name="bSinglePlayer" value-Boolean="True" type="BinHex">01</field>
+          <field hash="CED941A0" name="bPvP" value-Boolean="True" type="BinHex">01</field>
+          <field hash="5D9AAEAA" name="bCoop" value-Boolean="True" type="BinHex">01</field>
+          <field hash="AA2D31DF" name="bShangriLa" value-Boolean="True" type="BinHex">01</field>
+          <field hash="DF8C0830" name="bArena" value-Boolean="True" type="BinHex">01</field>
+          <field hash="1409F22F" name="bChannel0" value-Boolean="False" type="BinHex">00</field>
+          <field hash="630EC2B9" name="bChannel1" value-Boolean="False" type="BinHex">00</field>
+          <field hash="FA079303" name="bChannel2" value-Boolean="False" type="BinHex">00</field>
+        </object>
+      </object>
+      <object hash="53FACFF5" name="CFCXWeapon">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="ECDD88A8" name="iAnimationValue" value-Int32="21" type="BinHex">15000000</field>
+        <field hash="5253755F" name="bByPassLockHiresCustom" value-Boolean="False" type="BinHex">00</field>
+        <field hash="DD5D4F7D" name="wpnpropsWeaponProperties" value-Id64="7677583371829" type="BinHex">352EA193FB060000</field>
+        <field hash="3315538A" name="sndActivationBarkSound" value-String="0xFFFFFFFF" type="BinHex">3078464646464646464600</field>
+        <field hash="C55D6725" name="sndtpActivationBarkSoundType" type="BinHex">FFFFFFFF</field>
+        <field hash="E320CAA8" name="bUseHiResScope" value-Boolean="False" type="BinHex">00</field>
+        <field hash="49C53E5F" name="fHiResLowResScopeSwitchTransitionPoint" value-Float32="0.5" type="BinHex">0000003F</field>
+        <object hash="E348155E" name="FireStrategy" />
+        <object hash="F4872553" name="BarrelRotation">
+          <field hash="38A2468A" name="bRotateBarrelProcedural" value-Boolean="False" type="BinHex">00</field>
+          <field hash="CF1DBEC6" name="BoneName" type="BinHex">00</field>
+          <field hash="8D69DE67" name="fAngleToRotate" value-Float32="0" type="BinHex">00000000</field>
+          <field hash="AA1EF64D" name="fTimeToRotate" value-Float32="0" type="BinHex">00000000</field>
+        </object>
+        <object hash="919A5D44" name="ProceduralBoneTransform">
+          <field hash="D212B7B7" name="bTransformBone" value-Boolean="False" type="BinHex">00</field>
+          <field hash="795F32D4" name="text_BoneName" value-String="" type="BinHex">00</field>
+          <field hash="CF1DBEC6" name="BoneName" type="BinHex">FFFFFFFF</field>
+          <field hash="C1406A0D" name="Angle" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+          <field hash="5EA6CFE6" name="Offset" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+          <field hash="0B94ED35" name="fProceduralTransformBlendOutTime" value-Float32="0" type="BinHex">00000000</field>
+        </object>
+        <object hash="194EAF85" name="FoldingSightTransforms">
+          <object hash="194EAF85" name="FoldingSightTransforms">
+            <field hash="795F32D4" name="text_BoneName" value-String="" type="BinHex">00</field>
+            <field hash="CF1DBEC6" name="BoneName" type="BinHex">FFFFFFFF</field>
+            <field hash="C1406A0D" name="Angle" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+            <field hash="5EA6CFE6" name="Offset" value-Vector3="0,0,0" type="BinHex">000000000000000000000000</field>
+          </object>
+        </object>
+      </object>
+      <object hash="4BB57863" name="CWeaponNetworkComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+      </object>
+      <object hash="A070E7F5" name="CCountersComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+      </object>
+      <object hash="7BC1F47E" name="CFCXWikiItemEntryComponent">
+        <field hash="FEE21F0D" name="hidHasAliasName" type="BinHex">00</field>
+        <field hash="9035A13E" name="hidInjected" type="BinHex">01</field>
+        <field hash="97E66757" name="wikiItemId" value-Int32="1505" type="BinHex">E1050000</field>
+        <field hash="2B8EFCC6" name="bShouldNotifyHud" value-Boolean="False" type="BinHex">00</field>
+      </object>
+    </object>
+  </object>
+  <object hash="D9C50D17" name="ResPack">
+    <field hash="44186B66" name="Count" value-Int32="117" type="BinHex">75000000</field>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CParticlesSystemParamResource" type="BinHex">121C6044</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="newparticles\7646574125597.part" />
+        <ResId ID="newparticles\7645924484557.part" />
+        <ResId ID="newparticles\7644730636210.part" />
+        <ResId ID="newparticles\7807522231585.part" />
+        <ResId ID="newparticles\7656371534022.part" />
+        <ResId ID="newparticles\7875720543382.part" />
+        <ResId ID="newparticles\7646179981761.part" />
+        <ResId ID="newparticles\7807520911046.part" />
+        <ResId ID="newparticles\7646174295907.part" />
+        <ResId ID="newparticles\7864435671148.part" />
+        <ResId ID="newparticles\7729902421113.part" />
+        <ResId ID="newparticles\7880231126741.part" />
+        <ResId ID="newparticles\7646179042841.part" />
+        <ResId ID="newparticles\7863073992058.part" />
+        <ResId ID="newparticles\7646580269852.part" />
+        <ResId ID="newparticles\7704561625153.part" />
+        <ResId ID="newparticles\7806374295132.part" />
+        <ResId ID="newparticles\7644585198614.part" />
+        <ResId ID="newparticles\7720407843970.part" />
+        <ResId ID="newparticles\7646171698199.part" />
+        <ResId ID="newparticles\7646577495141.part" />
+        <ResId ID="newparticles\7646054981188.part" />
+        <ResId ID="newparticles\7871073458941.part" />
+        <ResId ID="newparticles\7704561650395.part" />
+        <ResId ID="newparticles\7806706539375.part" />
+        <ResId ID="newparticles\7646063863419.part" />
+        <ResId ID="newparticles\7656371554831.part" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CSkeletonResource" type="BinHex">2CA4DD4C</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_common\weapons\lmg\minimi_ref.skeleton" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CSoundResource" type="BinHex">D850F463</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="soundbinary\0002572e.spk" />
+        <ResId ID="soundbinary\0002ec36.spk" />
+        <ResId ID="soundbinary\0000584d.spk" />
+        <ResId ID="soundbinary\002b80f0.spk" />
+        <ResId ID="soundbinary\0028aa3f.spk" />
+        <ResId ID="soundbinary\0028aa3e.spk" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CTextureResource" type="BinHex">FC5AD56B</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_bloodsplatters_4x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_ceramic_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_leather_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_carpet_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_gravel_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plywood_4x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plastic_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_concrete_4x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\bullet_tracers\bullet_tracer_01_null_d.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_concrete_4x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plywood_4x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_ceramic_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plastic_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fcc_gfx_impactdecal_snow_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_wood_4x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_leather_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_sand_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_grass_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_glass_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_gypse_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plasticpanel_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_brick_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_metal_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_wood_4x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_sand_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_gravel_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_skin_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fcc_gfx_impactdecal_snow_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_brick_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_metal_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_gypse_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_grass_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_glass_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_carpet_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plants_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_metalformeddry_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plants_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_plasticpanel_2x1.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_impactdecal_metalformeddry_2x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_bloodsplatters_4x1_n.xbt" />
+        <ResId ID="graphics\_common\_textures\fx\decal\fc3_gfx_bloodsplatters_4x1_s.xbt" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CAnimationPackageResource" type="BinHex">F00AA384</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="__Unknown\5E4500F000000000" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CGeometryResource" type="BinHex">BEE8E886</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_common\weapons\lmg\minimi_tp.xbg" />
+        <ResId ID="graphics\_common\weapons\lmg\minimi.xbg" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CEntityArchetypeRes" type="BinHex">19D22F9E</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="entityarchetypeslibrary\7677583371829.ark.fcb" />
+      </field>
+    </object>
+    <object hash="0AD3AB2C" name="ResList">
+      <field hash="9C5891A6" name="TypeId" value-ComputeHash32="CMaterialResource" type="BinHex">775382BC</field>
+      <field hash="6F0AC77A" name="ResIds">
+        <ResId ID="graphics\_materials\jzhang2-m-20140826120444.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826120431.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826120451.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806171445.material.bin" />
+        <ResId ID="graphics\_materials\jprajotte-m-20100916104744.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806174042.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155054.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806173816.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806172853.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806171848.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-1805201135690580.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806174941.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-1711201142253074.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806165915.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-0703201236644470.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-0703201236673438.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806174518.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155545.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155528.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-0703201241953847.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806173144.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806170109.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806171144.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-0304201268658862.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-0703201237558237.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-1711201141524275.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806173330.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806174322.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806165739.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806171749.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140806170240.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155606.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155654.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155642.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155633.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155621.material.bin" />
+        <ResId ID="graphics\_materials\jzhang2-m-20140826155629.material.bin" />
+        <ResId ID="graphics\_materials\grassam-m-0703201238027774.material.bin" />
+      </field>
+    </object>
+  </object>
+</object>
